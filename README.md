@@ -116,3 +116,38 @@ This dataset will give you a small taste from the world of microbiology. You are
 📦Dimensions: (1484, 9)
 ⚙Missing values: No
 
+-------------------------
+
+- mlb_salaries_2014.csv Salaries of players in Major League Baseball at the start of the 2014 season, from the Lahman Baseball Database.
+
+- disease_democ.csv Data illustrating a controversial theory suggesting that the emergence of democratic political systems has depended largely on nations having low rates of infectious disease, from the Global Infectious Diseases and Epidemiology Network and Democratization: A Comparative Analysis of 170 Countries.
+
+- gdp_pc.csv World Bank data on 2014 Gross Domestic Product (GDP) per capita for the world’s nations, in current international dollars, corrected for purchasing power in different territories.
+
+- nations.csv Data from the World Bank Indicators portal, which is an incredibly rich resource. Contains the following fields:iso2c iso3c Two- and Three-letter codes for each country, assigned by the International Organization for Standardization.
+
+- oil_production.csv Data on oil production by world region from 2000 to 2014, in thousands of barrels per day, from the U.S. Energy Information Administration.
+
+- ucb_stanford_2014.csv Data on federal government grants to UC Berkeley and Stanford University in 2014, downloaded from USASpending.gov.
+
+- urls.xls A spreadsheet that we’ll use in webscraping.
+
+Data used in reporting this story, which revealed that some of the doctors paid as “experts” by the drug company Pfizer had troubling disciplinary records:
+
+- pfizer.csv Payments made by Pfizer to doctors across the United States in the second half on 2009. 
+- fda.csv Data on warning letters sent to doctors by the U.S. Food and Drug Administration, because of problems in the way in which they ran clinical trials testing experimental treatments. Contains the following variables:
+
+- food_stamps.csv U.S. Department of Agriculture data on the number of participants, in millions, and costs, in $ billions, of the federal Supplemental Nutrition Assistance Program from 1969 to 2015.
+- kindergarten.csv Data from the California Department of Public Health, documenting enrollment and the number of children with complete immunizations at entry into kindergartens in California from 2001 to 2015. 
+- -gpd_pc.csv gdp_pc.csvt CSV file with World Bank data on GDP per capita for the world’s nations in 2014, plus ancillary file for QGIS to understand the data types for each field.
+- warming.csv NASA data on the annual average global temperature, from 1880 to 2015, compared the the average from 1951-1980.
+
+
+Global Terrorism Database
+Maintained by the National Consortium for the Study of Terrorism and Responses to Terrorism (START) at the University of Maryland in College Park, the Global Terrorism Database contains information on more than 150,000 terrorist attacks from 1970 to 2015. It is a rich source of information on terrorist groups across the globe, and the attacks they are responsible for.
+
+You can download the data from here: https://gtd.terrorismdata.com/, selecting the Download full GTD dataset option. An extensive codebook details all of the fields in the data.
+
+The data is provided as a series of spreadsheets in .xlsx format. I suggest that you import this data into Open Refine before processing any further, and create a new field giving the date of each event in standard YYYY-MM-DD format. This can be done from the eventid field. 
+
+Do take care to read the Terms of Use and instructions for citing the source of the GTD data.
