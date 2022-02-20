@@ -4,4 +4,10 @@
 https://sports-statistics.com/sports-data/sports-data-sets-for-data-modeling-visualization-predictions-machine-learning/ </br>
 Michael Jordan and Shaquille O'Neil Career Stats:  Classification (Win is the Target Variable) </br>
 NBA shot logs: Data on shots taken during the 2014-2015 season, which player took the shot, where on the floor was the shot taken from, who was the nearest defender, how far away was the nearest defender, time on the shot clock, and much more.</br>
+Diamonds : Multiclass Classification and/or Regression</br>
+🎯 Targets: ‘carat’ or ‘price’</br>
+🔗 Link: Kaggle</br>
+📦Dimensions: (53940, 10)</br>
+⚙Missing values: No</br>
+</br>
 
