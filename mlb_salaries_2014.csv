@@ -1,0 +1,747 @@
+"playerID","nameFirst","nameLast","nameFull","teamID","teamName","salary","salary_mil"
+"arroybr01","Bronson","Arroyo","Bronson Arroyo","ARI","Arizona Diamondbacks",9500000,9.5
+"cahiltr01","Trevor","Cahill","Trevor Cahill","ARI","Arizona Diamondbacks",7700000,7.7
+"campato01","Tony","Campana","Tony Campana","ARI","Arizona Diamondbacks",509500,0.5095
+"chaveer01","Eric","Chavez","Eric Chavez","ARI","Arizona Diamondbacks",3500000,3.5
+"collmjo01","Josh","Collmenter","Josh Collmenter","ARI","Arizona Diamondbacks",925000,0.925
+"delgara01","Randall","Delgado","Randall Delgado","ARI","Arizona Diamondbacks",510000,0.51
+"goldspa01","Paul","Goldschmidt","Paul Goldschmidt","ARI","Arizona Diamondbacks",1100000,1.1
+"gosewtu01","Tuffy","Gosewisch","Tuffy Gosewisch","ARI","Arizona Diamondbacks",502000,0.502
+"gregodi01","Didi","Gregorius","Didi Gregorius","ARI","Arizona Diamondbacks",506500,0.5065
+"hillaa01","Aaron","Hill","Aaron Hill","ARI","Arizona Diamondbacks",11000000,11
+"mileywa01","Wade","Miley","Wade Miley","ARI","Arizona Diamondbacks",523500,0.5235
+"montemi01","Miguel","Montero","Miguel Montero","ARI","Arizona Diamondbacks",10000000,10
+"nunovi01","Vidal","Nuno","Vidal Nuno","ARI","Arizona Diamondbacks",504500,0.5045
+"owingch01","Chris","Owings","Chris Owings","ARI","Arizona Diamondbacks",500000,0.5
+"parrage01","Gerardo","Parra","Gerardo Parra","ARI","Arizona Diamondbacks",4850000,4.85
+"pennicl01","Cliff","Pennington","Cliff Pennington","ARI","Arizona Diamondbacks",3250000,3.25
+"perezol01","Oliver","Perez","Oliver Perez","ARI","Arizona Diamondbacks",1750000,1.75
+"polloaj01","A. J.","Pollock","A. J. Pollock","ARI","Arizona Diamondbacks",507000,0.507
+"pradoma01","Martin","Prado","Martin Prado","ARI","Arizona Diamondbacks",11000000,11
+"putzjj01","J. J.","Putz","J. J. Putz","ARI","Arizona Diamondbacks",7000000,7
+"reedad01","Addison","Reed","Addison Reed","ARI","Arizona Diamondbacks",538500,0.5385
+"rossco01","Cody","Ross","Cody Ross","ARI","Arizona Diamondbacks",9500000,9.5
+"thatcjo01","Joe","Thatcher","Joe Thatcher","ARI","Arizona Diamondbacks",2375000,2.375
+"trumbma01","Mark","Trumbo","Mark Trumbo","ARI","Arizona Diamondbacks",4800000,4.8
+"zieglbr01","Brad","Ziegler","Brad Ziegler","ARI","Arizona Diamondbacks",4500000,4.5
+"avilalu01","Luis","Avilan","Luis Avilan","ATL","Atlanta Braves",517500,0.5175
+"carpeda01","David","Carpenter","David Carpenter","ATL","Atlanta Braves",532500,0.5325
+"doumiry01","Ryan","Doumit","Ryan Doumit","ATL","Atlanta Braves",3500000,3.5
+"floydga01","Gavin","Floyd","Gavin Floyd","ATL","Atlanta Braves",4000000,4
+"freemfr01","Freddie","Freeman","Freddie Freeman","ATL","Atlanta Braves",5125000,5.125
+"gattiev01","Evan","Gattis","Evan Gattis","ATL","Atlanta Braves",520250,0.52025
+"haleda02","David","Hale","David Hale","ATL","Atlanta Braves",502500,0.5025
+"haranaa01","Aaron","Harang","Aaron Harang","ATL","Atlanta Braves",1000000,1
+"heywaja01","Jason","Heyward","Jason Heyward","ATL","Atlanta Braves",4500000,4.5
+"johnsch05","Chris","Johnson","Chris Johnson","ATL","Atlanta Braves",4750000,4.75
+"kimbrcr01","Craig","Kimbrel","Craig Kimbrel","ATL","Atlanta Braves",7000000,7
+"lairdge01","Gerald","Laird","Gerald Laird","ATL","Atlanta Braves",1500000,1.5
+"minormi01","Mike","Minor","Mike Minor","ATL","Atlanta Braves",3850000,3.85
+"pastoty01","Tyler","Pastornicky","Tyler Pastornicky","ATL","Atlanta Braves",500000,0.5
+"penara02","Ramiro","Pena","Ramiro Pena","ATL","Atlanta Braves",700000,0.7
+"santaer01","Ervin","Santana","Ervin Santana","ATL","Atlanta Braves",14100000,14.1
+"simmoan01","Andrelton","Simmons","Andrelton Simmons","ATL","Atlanta Braves",1000000,1
+"teherju01","Julio","Teheran","Julio Teheran","ATL","Atlanta Braves",800000,0.8
+"ugglada01","Dan","Uggla","Dan Uggla","ATL","Atlanta Braves",13000000,13
+"uptonbj01","B. J.","Upton","B. J. Upton","ATL","Atlanta Braves",13450000,13.45
+"uptonju01","Justin","Upton","Justin Upton","ATL","Atlanta Braves",14250000,14.25
+"varvaan01","Anthony","Varvaro","Anthony Varvaro","ATL","Atlanta Braves",515000,0.515
+"waldejo01","Jordan","Walden","Jordan Walden","ATL","Atlanta Braves",1490000,1.49
+"woodal02","Alex","Wood","Alex Wood","ATL","Atlanta Braves",506250,0.50625
+"brachbr01","Brad","Brach","Brad Brach","BAL","Baltimore Orioles",509500,0.5095
+"brittza01","Zach","Britton","Zach Britton","BAL","Baltimore Orioles",521500,0.5215
+"chenwe02","Wei-Yin","Chen","Wei-Yin Chen","BAL","Baltimore Orioles",4072000,4.072
+"clevest01","Steve","Clevenger","Steve Clevenger","BAL","Baltimore Orioles",505000,0.505
+"cruzne02","Nelson","Cruz","Nelson Cruz","BAL","Baltimore Orioles",8000000,8
+"davisch02","Chris","Davis","Chris Davis","BAL","Baltimore Orioles",10350000,10.35
+"flahery01","Ryan","Flaherty","Ryan Flaherty","BAL","Baltimore Orioles",512500,0.5125
+"gausmke01","Kevin","Gausman","Kevin Gausman","BAL","Baltimore Orioles",502500,0.5025
+"gonzami03","Miguel","Gonzalez","Miguel Gonzalez","BAL","Baltimore Orioles",529000,0.529
+"hardyjj01","J. J.","Hardy","J. J. Hardy","BAL","Baltimore Orioles",7000000,7
+"hundlni01","Nick","Hundley","Nick Hundley","BAL","Baltimore Orioles",4000000,4
+"hunteto02","Tommy","Hunter","Tommy Hunter","BAL","Baltimore Orioles",3000000,3
+"jimenub01","Ubaldo","Jimenez","Ubaldo Jimenez","BAL","Baltimore Orioles",11250000,11.25
+"jonesad01","Adam","Jones","Adam Jones","BAL","Baltimore Orioles",13000000,13
+"lombast02","Steve","Lombardozzi","Steve Lombardozzi","BAL","Baltimore Orioles",517500,0.5175
+"loughda01","David","Lough","David Lough","BAL","Baltimore Orioles",510500,0.5105
+"machama01","Manny","Machado","Manny Machado","BAL","Baltimore Orioles",519000,0.519
+"markani01","Nick","Markakis","Nick Markakis","BAL","Baltimore Orioles",15000000,15
+"matusbr01","Brian","Matusz","Brian Matusz","BAL","Baltimore Orioles",2400000,2.4
+"mcfartj01","T. J.","McFarland","T. J. McFarland","BAL","Baltimore Orioles",505500,0.5055
+"norribu01","Bud","Norris","Bud Norris","BAL","Baltimore Orioles",5300000,5.3
+"odayda01","Darren","O'Day","Darren O'Day","BAL","Baltimore Orioles",3200000,3.2
+"pearcst01","Steve","Pearce","Steve Pearce","BAL","Baltimore Orioles",700000,0.7
+"schoojo01","Jonathan","Schoop","Jonathan Schoop","BAL","Baltimore Orioles",500500,0.5005
+"tillmch01","Chris","Tillman","Chris Tillman","BAL","Baltimore Orioles",546000,0.546
+"webbry01","Ryan","Webb","Ryan Webb","BAL","Baltimore Orioles",1750000,1.75
+"weeksje01","Jemile","Weeks","Jemile Weeks","BAL","Baltimore Orioles",515000,0.515
+"wietema01","Matt","Wieters","Matt Wieters","BAL","Baltimore Orioles",7700000,7.7
+"badenbu01","Burke","Badenhop","Burke Badenhop","BOS","Boston Red Sox",2150000,2.15
+"bogaexa01","Xander","Bogaerts","Xander Bogaerts","BOS","Boston Red Sox",517000,0.517
+"bradlja02","Jackie","Bradley","Jackie Bradley","BOS","Boston Red Sox",502000,0.502
+"breslcr01","Craig","Breslow","Craig Breslow","BOS","Boston Red Sox",3825000,3.825
+"brittdr01","Drake","Britton","Drake Britton","BOS","Boston Red Sox",503000,0.503
+"buchhcl01","Clay","Buchholz","Clay Buchholz","BOS","Boston Red Sox",7700000,7.7
+"capuach01","Chris","Capuano","Chris Capuano","BOS","Boston Red Sox",2250000,2.25
+"carpmi01","Mike","Carp","Mike Carp","BOS","Boston Red Sox",1400000,1.4
+"craigal01","Allen","Craig","Allen Craig","BOS","Boston Red Sox",2750000,2.75
+"drewst01","Stephen","Drew","Stephen Drew","BOS","Boston Red Sox",10100000,10.1
+"gomesjo01","Jonny","Gomes","Jonny Gomes","BOS","Boston Red Sox",5000000,5
+"herrejo03","Jonathan","Herrera","Jonathan Herrera","BOS","Boston Red Sox",1300000,1.3
+"johnske05","Kelly","Johnson","Kelly Johnson","BOS","Boston Red Sox",3000000,3
+"lavarry01","Ryan","Lavarnway","Ryan Lavarnway","BOS","Boston Red Sox",510000,0.51
+"lestejo01","Jon","Lester","Jon Lester","BOS","Boston Red Sox",13000000,13
+"middlwi01","Will","Middlebrooks","Will Middlebrooks","BOS","Boston Red Sox",540000,0.54
+"millean01","Andrew","Miller","Andrew Miller","BOS","Boston Red Sox",1900000,1.9
+"mujiced01","Edward","Mujica","Edward Mujica","BOS","Boston Red Sox",4750000,4.75
+"napolmi01","Mike","Napoli","Mike Napoli","BOS","Boston Red Sox",16000000,16
+"navada01","Daniel","Nava","Daniel Nava","BOS","Boston Red Sox",556500,0.5565
+"ortizda01","David","Ortiz","David Ortiz","BOS","Boston Red Sox",15000000,15
+"pedrodu01","Dustin","Pedroia","Dustin Pedroia","BOS","Boston Red Sox",12500000,12.5
+"pierzaj01","A. J.","Pierzynski","A. J. Pierzynski","BOS","Boston Red Sox",8250000,8.25
+"rossda01","David","Ross","David Ross","BOS","Boston Red Sox",3100000,3.1
+"sizemgr01","Grady","Sizemore","Grady Sizemore","BOS","Boston Red Sox",750000,0.75
+"tazawju01","Junichi","Tazawa","Junichi Tazawa","BOS","Boston Red Sox",1275000,1.275
+"ueharko01","Koji","Uehara","Koji Uehara","BOS","Boston Red Sox",5000000,5
+"victosh01","Shane","Victorino","Shane Victorino","BOS","Boston Red Sox",13000000,13
+"workmbr01","Brandon","Workman","Brandon Workman","BOS","Boston Red Sox",518000,0.518
+"wrighst01","Steven","Wright","Steven Wright","BOS","Boston Red Sox",502000,0.502
+"abreujo02","Jose","Abreu","Jose Abreu","CHA","Chicago Cubs",7000000,7
+"beckhgo01","Gordon","Beckham","Gordon Beckham","CHA","Chicago Cubs",4175000,4.175
+"belisro01","Ronald","Belisario","Ronald Belisario","CHA","Chicago Cubs",3000000,3
+"cletoma01","Maikel","Cleto","Maikel Cleto","CHA","Chicago Cubs",501000,0.501
+"danksjo01","John","Danks","John Danks","CHA","Chicago Cubs",14250000,14.25
+"deazaal01","Alejandro","De Aza","Alejandro De Aza","CHA","Chicago Cubs",4250000,4.25
+"downssc01","Scott","Downs","Scott Downs","CHA","Chicago Cubs",3750000,3.75
+"dunnad01","Adam","Dunn","Adam Dunn","CHA","Chicago Cubs",15000000,15
+"eatonad02","Adam","Eaton","Adam Eaton","CHA","Chicago Cubs",511000,0.511
+"flowety01","Tyler","Flowers","Tyler Flowers","CHA","Chicago Cubs",950000,0.95
+"garciav01","Avisail","Garcia","Avisail Garcia","CHA","Chicago Cubs",510000,0.51
+"garcile02","Leury","Garcia","Leury Garcia","CHA","Chicago Cubs",505500,0.5055
+"gillaco01","Conor","Gillaspie","Conor Gillaspie","CHA","Chicago Cubs",512000,0.512
+"johnser04","Erik","Johnson","Erik Johnson","CHA","Chicago Cubs",500000,0.5
+"konerpa01","Paul","Konerko","Paul Konerko","CHA","Chicago Cubs",2500000,2.5
+"lindsma01","Matt","Lindstrom","Matt Lindstrom","CHA","Chicago Cubs",4000000,4
+"paulife01","Felipe","Paulino","Felipe Paulino","CHA","Chicago Cubs",1750000,1.75
+"quintjo01","Jose","Quintana","Jose Quintana","CHA","Chicago Cubs",850000,0.85
+"ramiral03","Alexei","Ramirez","Alexei Ramirez","CHA","Chicago Cubs",9500000,9.5
+"salech01","Chris","Sale","Chris Sale","CHA","Chicago Cubs",3500000,3.5
+"semiema01","Marcus","Semien","Marcus Semien","CHA","Chicago Cubs",500000,0.5
+"vealdo01","Donnie","Veal","Donnie Veal","CHA","Chicago Cubs",516000,0.516
+"vicieda01","Dayan","Viciedo","Dayan Viciedo","CHA","Chicago Cubs",2800000,2.8
+"webbda01","Daniel","Webb","Daniel Webb","CHA","Chicago Cubs",500000,0.5
+"arrieja01","Jake","Arrieta","Jake Arrieta","CHN","Chicago White Sox",500000,0.5
+"bakerjo01","John","Baker","John Baker","CHN","Chicago White Sox",875000,0.875
+"barneda01","Darwin","Barney","Darwin Barney","CHN","Chicago White Sox",2300000,2.3
+"bonifem01","Emilio","Bonifacio","Emilio Bonifacio","CHN","Chicago White Sox",2500000,2.5
+"castiwe01","Welington","Castillo","Welington Castillo","CHN","Chicago White Sox",530000,0.53
+"castrst01","Starlin","Castro","Starlin Castro","CHN","Chicago White Sox",5000000,5
+"fujikky01","Kyuji","Fujikawa","Kyuji Fujikawa","CHN","Chicago White Sox",4500000,4.5
+"grimmju01","Justin","Grimm","Justin Grimm","CHN","Chicago White Sox",505500,0.5055
+"hammeja01","Jason","Hammel","Jason Hammel","CHN","Chicago White Sox",6000000,6
+"jacksed01","Edwin","Jackson","Edwin Jackson","CHN","Chicago White Sox",11000000,11
+"kalisry01","Ryan","Kalish","Ryan Kalish","CHN","Chicago White Sox",550000,0.55
+"lakeju01","Junior","Lake","Junior Lake","CHN","Chicago White Sox",502500,0.5025
+"oltmi01","Mike","Olt","Mike Olt","CHN","Chicago White Sox",502000,0.502
+"rizzoan01","Anthony","Rizzo","Anthony Rizzo","CHN","Chicago White Sox",1250000,1.25
+"rondohe01","Hector","Rondon","Hector Rondon","CHN","Chicago White Sox",514000,0.514
+"ruggiju01","Justin","Ruggiano","Justin Ruggiano","CHN","Chicago White Sox",2000000,2
+"rusinch01","Chris","Rusin","Chris Rusin","CHN","Chicago White Sox",503500,0.5035
+"russeja02","James","Russell","James Russell","CHN","Chicago White Sox",1775000,1.775
+"schiena01","Nate","Schierholtz","Nate Schierholtz","CHN","Chicago White Sox",5000000,5
+"straida01","Dan","Straily","Dan Straily","CHN","Chicago White Sox",505000,0.505
+"stroppe01","Pedro","Strop","Pedro Strop","CHN","Chicago White Sox",1325000,1.325
+"sweenry01","Ryan","Sweeney","Ryan Sweeney","CHN","Chicago White Sox",1500000,1.5
+"valbulu01","Luis","Valbuena","Luis Valbuena","CHN","Chicago White Sox",1710000,1.71
+"verasjo01","Jose","Veras","Jose Veras","CHN","Chicago White Sox",3850000,3.85
+"villaca01","Carlos","Villanueva","Carlos Villanueva","CHN","Chicago White Sox",5000000,5
+"woodtr01","Travis","Wood","Travis Wood","CHN","Chicago White Sox",3900000,3.9
+"wrighwe01","Wesley","Wright","Wesley Wright","CHN","Chicago White Sox",1425000,1.425
+"baileho02","Homer","Bailey","Homer Bailey","CIN","Cincinnati Reds",9000000,9
+"broxtjo01","Jonathan","Broxton","Jonathan Broxton","CIN","Cincinnati Reds",7000000,7
+"bruceja01","Jay","Bruce","Jay Bruce","CIN","Cincinnati Reds",10000000,10
+"chapmar01","Aroldis","Chapman","Aroldis Chapman","CIN","Cincinnati Reds",5000000,5
+"chrisni01","Nick","Christiani","Nick Christiani","CIN","Cincinnati Reds",500000,0.5
+"cingrto01","Tony","Cingrani","Tony Cingrani","CIN","Cincinnati Reds",512500,0.5125
+"cozarza01","Zack","Cozart","Zack Cozart","CIN","Cincinnati Reds",600000,0.6
+"cuetojo01","Johnny","Cueto","Johnny Cueto","CIN","Cincinnati Reds",10000000,10
+"frazito01","Todd","Frazier","Todd Frazier","CIN","Cincinnati Reds",600000,0.6
+"hamilbi02","Billy","Hamilton","Billy Hamilton","CIN","Cincinnati Reds",500000,0.5
+"hannaja01","Jack","Hannahan","Jack Hannahan","CIN","Cincinnati Reds",1000000,1
+"heisech01","Chris","Heisey","Chris Heisey","CIN","Cincinnati Reds",1760000,1.76
+"hoovejj01","J. J.","Hoover","J. J. Hoover","CIN","Cincinnati Reds",520000,0.52
+"latosma01","Mat","Latos","Mat Latos","CIN","Cincinnati Reds",7250000,7.25
+"leakemi01","Mike","Leake","Mike Leake","CIN","Cincinnati Reds",5925000,5.925
+"lecursa01","Sam","LeCure","Sam LeCure","CIN","Cincinnati Reds",1200000,1.2
+"ludwiry01","Ryan","Ludwick","Ryan Ludwick","CIN","Cincinnati Reds",8500000,8.5
+"marshse01","Sean","Marshall","Sean Marshall","CIN","Cincinnati Reds",5500000,5.5
+"mesorde01","Devin","Mesoraco","Devin Mesoraco","CIN","Cincinnati Reds",525000,0.525
+"ondrulo01","Logan","Ondrusek","Logan Ondrusek","CIN","Cincinnati Reds",1350000,1.35
+"parrama01","Manny","Parra","Manny Parra","CIN","Cincinnati Reds",2000000,2
+"penabr01","Brayan","Pena","Brayan Pena","CIN","Cincinnati Reds",875000,0.875
+"phillbr01","Brandon","Phillips","Brandon Phillips","CIN","Cincinnati Reds",11000000,11
+"santira01","Ramon","Santiago","Ramon Santiago","CIN","Cincinnati Reds",1100000,1.1
+"schumsk01","Skip","Schumaker","Skip Schumaker","CIN","Cincinnati Reds",2000000,2
+"simonal01","Alfredo","Simon","Alfredo Simon","CIN","Cincinnati Reds",1500000,1.5
+"sotone01","Neftali","Soto","Neftali Soto","CIN","Cincinnati Reds",500000,0.5
+"vottojo01","Joey","Votto","Joey Votto","CIN","Cincinnati Reds",12000000,12
+"allenco01","Cody","Allen","Cody Allen","CLE","Cleveland Indians",515400,0.5154
+"atchisc01","Scott","Atchison","Scott Atchison","CLE","Cleveland Indians",800000,0.8
+"avilemi01","Mike","Aviles","Mike Aviles","CLE","Cleveland Indians",3500000,3.5
+"axforjo01","John","Axford","John Axford","CLE","Cleveland Indians",4500000,4.5
+"bauertr01","Trevor","Bauer","Trevor Bauer","CLE","Cleveland Indians",1183333,1.183333
+"bournmi01","Michael","Bourn","Michael Bourn","CLE","Cleveland Indians",13500000,13.5
+"brantmi02","Michael","Brantley","Michael Brantley","CLE","Cleveland Indians",1500000,1.5
+"cabreas01","Asdrubal","Cabrera","Asdrubal Cabrera","CLE","Cleveland Indians",10000000,10
+"carraca01","Carlos","Carrasco","Carlos Carrasco","CLE","Cleveland Indians",504700,0.5047
+"chiselo01","Lonnie","Chisenhall","Lonnie Chisenhall","CLE","Cleveland Indians",510800,0.5108
+"gomesya01","Yan","Gomes","Yan Gomes","CLE","Cleveland Indians",550000,0.55
+"johnsel02","Elliot","Johnson","Elliot Johnson","CLE","Cleveland Indians",930000,0.93
+"kipnija01","Jason","Kipnis","Jason Kipnis","CLE","Cleveland Indians",2166666,2.166666
+"klubeco01","Corey","Kluber","Corey Kluber","CLE","Cleveland Indians",514000,0.514
+"masteju01","Justin","Masterson","Justin Masterson","CLE","Cleveland Indians",9762500,9.7625
+"mcallza01","Zach","McAllister","Zach McAllister","CLE","Cleveland Indians",504500,0.5045
+"murphda07","David","Murphy","David Murphy","CLE","Cleveland Indians",5500000,5.5
+"outmajo01","Josh","Outman","Josh Outman","CLE","Cleveland Indians",1250000,1.25
+"raburry01","Ryan","Raburn","Ryan Raburn","CLE","Cleveland Indians",2250000,2.25
+"rzepcma01","Marc","Rzepczynski","Marc Rzepczynski","CLE","Cleveland Indians",1375000,1.375
+"salazda01","Danny","Salazar","Danny Salazar","CLE","Cleveland Indians",501500,0.5015
+"santaca01","Carlos","Santana","Carlos Santana","CLE","Cleveland Indians",3500000,3.5
+"selleju01","Justin","Sellers","Justin Sellers","CLE","Cleveland Indians",504000,0.504
+"shawbr01","Bryan","Shaw","Bryan Shaw","CLE","Cleveland Indians",529500,0.5295
+"swishni01","Nick","Swisher","Nick Swisher","CLE","Cleveland Indians",15000000,15
+"tomlijo01","Josh","Tomlin","Josh Tomlin","CLE","Cleveland Indians",800000,0.8
+"anderbr04","Brett","Anderson","Brett Anderson","COL","Colorado Rockies",8000000,8
+"arenano01","Nolan","Arenado","Nolan Arenado","COL","Colorado Rockies",500000,0.5
+"barnebr02","Brandon","Barnes","Brandon Barnes","COL","Colorado Rockies",501000,0.501
+"belisma01","Matt","Belisle","Matt Belisle","COL","Colorado Rockies",4250000,4.25
+"bettich01","Chad","Bettis","Chad Bettis","COL","Colorado Rockies",500000,0.5
+"blackch02","Charlie","Blackmon","Charlie Blackmon","COL","Colorado Rockies",501000,0.501
+"brothre01","Rex","Brothers","Rex Brothers","COL","Colorado Rockies",502000,0.502
+"chacijh01","Jhoulys","Chacin","Jhoulys Chacin","COL","Colorado Rockies",4850000,4.85
+"chatwty01","Tyler","Chatwood","Tyler Chatwood","COL","Colorado Rockies",502000,0.502
+"cuddymi01","Michael","Cuddyer","Michael Cuddyer","COL","Colorado Rockies",10500000,10.5
+"culbech01","Charlie","Culberson","Charlie Culberson","COL","Colorado Rockies",500000,0.5
+"dickeco01","Corey","Dickerson","Corey Dickerson","COL","Colorado Rockies",500000,0.5
+"gonzaca01","Carlos","Gonzalez","Carlos Gonzalez","COL","Colorado Rockies",10500000,10.5
+"hawkila01","LaTroy","Hawkins","LaTroy Hawkins","COL","Colorado Rockies",2250000,2.25
+"lemahdj01","DJ","LeMahieu","DJ LeMahieu","COL","Colorado Rockies",501000,0.501
+"loganbo02","Boone","Logan","Boone Logan","COL","Colorado Rockies",4750000,4.75
+"lopezwi01","Wilton","Lopez","Wilton Lopez","COL","Colorado Rockies",2200000,2.2
+"lylesjo01","Jordan","Lyles","Jordan Lyles","COL","Colorado Rockies",502000,0.502
+"mckenmi01","Michael","McKenry","Michael McKenry","COL","Colorado Rockies",750000,0.75
+"moralfr01","Franklin","Morales","Franklin Morales","COL","Colorado Rockies",1712500,1.7125
+"morneju01","Justin","Morneau","Justin Morneau","COL","Colorado Rockies",5000000,5
+"nicasju01","Juan","Nicasio","Juan Nicasio","COL","Colorado Rockies",2025000,2.025
+"ottavad01","Adam","Ottavino","Adam Ottavino","COL","Colorado Rockies",502000,0.502
+"pachejo01","Jordan","Pacheco","Jordan Pacheco","COL","Colorado Rockies",502000,0.502
+"rosarwi01","Wilin","Rosario","Wilin Rosario","COL","Colorado Rockies",502000,0.502
+"rutlejo01","Josh","Rutledge","Josh Rutledge","COL","Colorado Rockies",501000,0.501
+"stubbdr01","Drew","Stubbs","Drew Stubbs","COL","Colorado Rockies",4100000,4.1
+"tulowtr01","Troy","Tulowitzki","Troy Tulowitzki","COL","Colorado Rockies",16000000,16
+"wheelry01","Ryan","Wheeler","Ryan Wheeler","COL","Colorado Rockies",500000,0.5
+"albural01","Al","Alburquerque","Al Alburquerque","DET","Detroit Tigers",837500,0.8375
+"avilaal01","Alex","Avila","Alex Avila","DET","Detroit Tigers",4150000,4.15
+"cabremi01","Miguel","Cabrera","Miguel Cabrera","DET","Detroit Tigers",22000000,22
+"casteni01","Nick","Castellanos","Nick Castellanos","DET","Detroit Tigers",500000,0.5
+"chambjo03","Joba","Chamberlain","Joba Chamberlain","DET","Detroit Tigers",2500000,2.5
+"cokeph01","Phil","Coke","Phil Coke","DET","Detroit Tigers",1900000,1.9
+"davisra01","Rajai","Davis","Rajai Davis","DET","Detroit Tigers",5000000,5
+"gonzaal02","Alex","Gonzalez","Alex Gonzalez","DET","Detroit Tigers",1100000,1.1
+"holadbr01","Bryan","Holaday","Bryan Holaday","DET","Detroit Tigers",502000,0.502
+"hunteto01","Torii","Hunter","Torii Hunter","DET","Detroit Tigers",14000000,14
+"kellydo01","Don","Kelly","Don Kelly","DET","Detroit Tigers",1000000,1
+"kinslia01","Ian","Kinsler","Ian Kinsler","DET","Detroit Tigers",16000000,16
+"krolia01","Ian","Krol","Ian Krol","DET","Detroit Tigers",504000,0.504
+"martivi01","Victor","Martinez","Victor Martinez","DET","Detroit Tigers",12000000,12
+"nathajo01","Joe","Nathan","Joe Nathan","DET","Detroit Tigers",9000000,9
+"porceri01","Rick","Porcello","Rick Porcello","DET","Detroit Tigers",8500000,8.5
+"putkolu01","Luke","Putkonen","Luke Putkonen","DET","Detroit Tigers",510000,0.51
+"reedev01","Evan","Reed","Evan Reed","DET","Detroit Tigers",503000,0.503
+"rominan01","Andrew","Romine","Andrew Romine","DET","Detroit Tigers",504000,0.504
+"sanchan01","Anibal","Sanchez","Anibal Sanchez","DET","Detroit Tigers",15800000,15.8
+"scherma01","Max","Scherzer","Max Scherzer","DET","Detroit Tigers",15525000,15.525
+"smylydr01","Drew","Smyly","Drew Smyly","DET","Detroit Tigers",520000,0.52
+"verlaju01","Justin","Verlander","Justin Verlander","DET","Detroit Tigers",20000000,20
+"altuvjo01","Jose","Altuve","Jose Altuve","HOU","Houston Astros",1250000,1.25
+"cartech02","Chris","Carter","Chris Carter","HOU","Houston Astros",510000,0.51
+"castrja01","Jason","Castro","Jason Castro","HOU","Houston Astros",2450000,2.45
+"chapmke02","Kevin","Chapman","Kevin Chapman","HOU","Houston Astros",503400,0.5034
+"corpoca01","Carlos","Corporan","Carlos Corporan","HOU","Houston Astros",505300,0.5053
+"cosarja01","Jarred","Cosart","Jarred Cosart","HOU","Houston Astros",500000,0.5
+"dominma01","Matt","Dominguez","Matt Dominguez","HOU","Houston Astros",510100,0.5101
+"feldmsc01","Scott","Feldman","Scott Feldman","HOU","Houston Astros",12000000,12
+"fieldjo03","Josh","Fields","Josh Fields","HOU","Houston Astros",506500,0.5065
+"fowlede01","Dexter","Fowler","Dexter Fowler","HOU","Houston Astros",7350000,7.35
+"gonzama01","Marwin","Gonzalez","Marwin Gonzalez","HOU","Houston Astros",504500,0.5045
+"grossro01","Robbie","Grossman","Robbie Grossman","HOU","Houston Astros",504500,0.5045
+"guzmaje01","Jesus","Guzman","Jesus Guzman","HOU","Houston Astros",1300000,1.3
+"hoeslj01","L. J.","Hoes","L. J. Hoes","HOU","Houston Astros",502900,0.5029
+"keuchda01","Dallas","Keuchel","Dallas Keuchel","HOU","Houston Astros",508700,0.5087
+"krausma01","Marc","Krauss","Marc Krauss","HOU","Houston Astros",502300,0.5023
+"peacobr01","Brad","Peacock","Brad Peacock","HOU","Houston Astros",504300,0.5043
+"quallch01","Chad","Qualls","Chad Qualls","HOU","Houston Astros",2700000,2.7
+"singljo02","Jon","Singleton","Jon Singleton","HOU","Houston Astros",1500000,1.5
+"villajo01","Jonathan","Villar","Jonathan Villar","HOU","Houston Astros",503800,0.5038
+"aokino01","Nori","Aoki","Nori Aoki","KCA","Kansas City Royals",1950000,1.95
+"buenofr01","Francisley","Bueno","Francisley Bueno","KCA","Kansas City Royals",504500,0.5045
+"butlebi03","Billy","Butler","Billy Butler","KCA","Kansas City Royals",8000000,8
+"cainlo01","Lorenzo","Cain","Lorenzo Cain","KCA","Kansas City Royals",546000,0.546
+"ciriape01","Pedro","Ciriaco","Pedro Ciriaco","KCA","Kansas City Royals",513500,0.5135
+"colemlo01","Louis","Coleman","Louis Coleman","KCA","Kansas City Royals",537000,0.537
+"colliti01","Tim","Collins","Tim Collins","KCA","Kansas City Royals",1362500,1.3625
+"crowaa01","Aaron","Crow","Aaron Crow","KCA","Kansas City Royals",1475000,1.475
+"daviswa01","Wade","Davis","Wade Davis","KCA","Kansas City Royals",4800000,4.8
+"dysonja01","Jarrod","Dyson","Jarrod Dyson","KCA","Kansas City Royals",530000,0.53
+"escobal02","Alcides","Escobar","Alcides Escobar","KCA","Kansas City Royals",3000000,3
+"giavojo01","Johnny","Giavotella","Johnny Giavotella","KCA","Kansas City Royals",508575,0.508575
+"gordoal01","Alex","Gordon","Alex Gordon","KCA","Kansas City Royals",10000000,10
+"guthrje01","Jeremy","Guthrie","Jeremy Guthrie","KCA","Kansas City Royals",8000000,8
+"hayesbr01","Brett","Hayes","Brett Hayes","KCA","Kansas City Royals",630000,0.63
+"herreke01","Kelvin","Herrera","Kelvin Herrera","KCA","Kansas City Royals",522500,0.5225
+"hollagr01","Greg","Holland","Greg Holland","KCA","Kansas City Royals",4675000,4.675
+"hosmeer01","Eric","Hosmer","Eric Hosmer","KCA","Kansas City Royals",3600000,3.6
+"infanom01","Omar","Infante","Omar Infante","KCA","Kansas City Royals",5000000,5
+"maxweju01","Justin","Maxwell","Justin Maxwell","KCA","Kansas City Royals",1325000,1.325
+"moustmi01","Mike","Moustakas","Mike Moustakas","KCA","Kansas City Royals",549000,0.549
+"perezsa02","Salvador","Perez","Salvador Perez","KCA","Kansas City Royals",1500000,1.5
+"shielja02","James","Shields","James Shields","KCA","Kansas City Royals",13500000,13.5
+"valenda01","Danny","Valencia","Danny Valencia","KCA","Kansas City Royals",1065000,1.065
+"ventuyo01","Yordano","Ventura","Yordano Ventura","KCA","Kansas City Royals",500500,0.5005
+"aybarer01","Erick","Aybar","Erick Aybar","LAA","Los Angeles Angels of Anaheim",8500000,8.5
+"calhoko01","Kole","Calhoun","Kole Calhoun","LAA","Los Angeles Angels of Anaheim",506000,0.506
+"congeha01","Hank","Conger","Hank Conger","LAA","Los Angeles Angels of Anaheim",517500,0.5175
+"cowgico01","Collin","Cowgill","Collin Cowgill","LAA","Los Angeles Angels of Anaheim",506000,0.506
+"delarda01","Dane","De La Rosa","Dane De La Rosa","LAA","Los Angeles Angels of Anaheim",515000,0.515
+"freesda01","David","Freese","David Freese","LAA","Los Angeles Angels of Anaheim",5050000,5.05
+"frierer01","Ernesto","Frieri","Ernesto Frieri","LAA","Los Angeles Angels of Anaheim",3800000,3.8
+"greengr01","Grant","Green","Grant Green","LAA","Los Angeles Angels of Anaheim",502250,0.50225
+"hamiljo03","Josh","Hamilton","Josh Hamilton","LAA","Los Angeles Angels of Anaheim",17000000,17
+"iannech01","Chris","Iannetta","Chris Iannetta","LAA","Los Angeles Angels of Anaheim",4975000,4.975
+"ibanera01","Raul","Ibanez","Raul Ibanez","LAA","Los Angeles Angels of Anaheim",2750000,2.75
+"jepseke01","Kevin","Jepsen","Kevin Jepsen","LAA","Los Angeles Angels of Anaheim",1462500,1.4625
+"kendrho01","Howie","Kendrick","Howie Kendrick","LAA","Los Angeles Angels of Anaheim",9350000,9.35
+"kohnmi01","Michael","Kohn","Michael Kohn","LAA","Los Angeles Angels of Anaheim",515000,0.515
+"mcdonjo03","John","McDonald","John McDonald","LAA","Los Angeles Angels of Anaheim",850000,0.85
+"pujolal01","Albert","Pujols","Albert Pujols","LAA","Los Angeles Angels of Anaheim",23000000,23
+"rasmuco02","Cory","Rasmus","Cory Rasmus","LAA","Los Angeles Angels of Anaheim",501250,0.50125
+"richaga01","Garrett","Richards","Garrett Richards","LAA","Los Angeles Angels of Anaheim",520000,0.52
+"salasfe01","Fernando","Salas","Fernando Salas","LAA","Los Angeles Angels of Anaheim",870000,0.87
+"santihe01","Hector","Santiago","Hector Santiago","LAA","Los Angeles Angels of Anaheim",530000,0.53
+"shoemma01","Matt","Shoemaker","Matt Shoemaker","LAA","Los Angeles Angels of Anaheim",500500,0.5005
+"shuckja01","J. B.","Shuck","J. B. Shuck","LAA","Los Angeles Angels of Anaheim",515000,0.515
+"skaggty01","Tyler","Skaggs","Tyler Skaggs","LAA","Los Angeles Angels of Anaheim",502250,0.50225
+"smithjo05","Joe","Smith","Joe Smith","LAA","Los Angeles Angels of Anaheim",5250000,5.25
+"troutmi01","Mike","Trout","Mike Trout","LAA","Los Angeles Angels of Anaheim",1000000,1
+"weaveje02","Jered","Weaver","Jered Weaver","LAA","Los Angeles Angels of Anaheim",16000000,16
+"wilsocj01","C. J.","Wilson","C. J. Wilson","LAA","Los Angeles Angels of Anaheim",16000000,16
+"baxtemi01","Mike","Baxter","Mike Baxter","LAN","Los Angeles Dodgers",700000,0.7
+"beckejo02","Josh","Beckett","Josh Beckett","LAN","Los Angeles Dodgers",15750000,15.75
+"buterdr01","Drew","Butera","Drew Butera","LAN","Los Angeles Dodgers",700000,0.7
+"correke01","Kevin","Correia","Kevin Correia","LAN","Los Angeles Dodgers",5500000,5.5
+"crawfca02","Carl","Crawford","Carl Crawford","LAN","Los Angeles Dodgers",20250000,20.25
+"dominjo01","Jose","Dominguez","Jose Dominguez","LAN","Los Angeles Dodgers",501000,0.501
+"elbersc01","Scott","Elbert","Scott Elbert","LAN","Los Angeles Dodgers",575000,0.575
+"ellisaj01","A. J.","Ellis","A. J. Ellis","LAN","Los Angeles Dodgers",3550000,3.55
+"ethiean01","Andre","Ethier","Andre Ethier","LAN","Los Angeles Dodgers",15500000,15.5
+"gonzaad01","Adrian","Gonzalez","Adrian Gonzalez","LAN","Los Angeles Dodgers",21000000,21
+"gordode01","Dee","Gordon","Dee Gordon","LAN","Los Angeles Dodgers",515000,0.515
+"greinza01","Zack","Greinke","Zack Greinke","LAN","Los Angeles Dodgers",26000000,26
+"guerral01","Alex","Guerrero","Alex Guerrero","LAN","Los Angeles Dodgers",4000000,4
+"harenda01","Dan","Haren","Dan Haren","LAN","Los Angeles Dodgers",10000000,10
+"howeljp01","J. P.","Howell","J. P. Howell","LAN","Los Angeles Dodgers",4000000,4
+"janseke01","Kenley","Jansen","Kenley Jansen","LAN","Los Angeles Dodgers",4300000,4.3
+"kempma01","Matt","Kemp","Matt Kemp","LAN","Los Angeles Dodgers",21000000,21
+"kershcl01","Clayton","Kershaw","Clayton Kershaw","LAN","Los Angeles Dodgers",4000000,4
+"leagubr01","Brandon","League","Brandon League","LAN","Los Angeles Dodgers",7500000,7.5
+"maholpa01","Paul","Maholm","Paul Maholm","LAN","Los Angeles Dodgers",1500000,1.5
+"perezch01","Chris","Perez","Chris Perez","LAN","Los Angeles Dodgers",2300000,2.3
+"puigya01","Yasiel","Puig","Yasiel Puig","LAN","Los Angeles Dodgers",3714000,3.714
+"ramirha01","Hanley","Ramirez","Hanley Ramirez","LAN","Los Angeles Dodgers",16000000,16
+"rodrist02","Paco","Rodriguez","Paco Rodriguez","LAN","Los Angeles Dodgers",512500,0.5125
+"ryuhy01","Hyun-jin","Ryu","Hyun-jin Ryu","LAN","Los Angeles Dodgers",4333000,4.333
+"turneju01","Justin","Turner","Justin Turner","LAN","Los Angeles Dodgers",1000000,1
+"uribeju01","Juan","Uribe","Juan Uribe","LAN","Los Angeles Dodgers",6500000,6.5
+"vanslsc01","Scott","Van Slyke","Scott Van Slyke","LAN","Los Angeles Dodgers",507500,0.5075
+"wilsobr01","Brian","Wilson","Brian Wilson","LAN","Los Angeles Dodgers",10000000,10
+"withrch01","Chris","Withrow","Chris Withrow","LAN","Los Angeles Dodgers",506600,0.5066
+"wrighja01","Jamey","Wright","Jamey Wright","LAN","Los Angeles Dodgers",1800000,1.8
+"alvarhe01","Henderson","Alvarez","Henderson Alvarez","MIA","Miami Marlins",525400,0.5254
+"bakerje03","Jeff","Baker","Jeff Baker","MIA","Miami Marlins",1600000,1.6
+"cishest01","Steve","Cishek","Steve Cishek","MIA","Miami Marlins",3800000,3.8
+"dietrde01","Derek","Dietrich","Derek Dietrich","MIA","Miami Marlins",501500,0.5015
+"dobbsgr01","Greg","Dobbs","Greg Dobbs","MIA","Miami Marlins",1700000,1.7
+"dunnmi01","Mike","Dunn","Mike Dunn","MIA","Miami Marlins",1400000,1.4
+"eovalna01","Nathan","Eovaldi","Nathan Eovaldi","MIA","Miami Marlins",517000,0.517
+"fernajo02","Jose","Fernandez","Jose Fernandez","MIA","Miami Marlins",635000,0.635
+"handbr01","Brad","Hand","Brad Hand","MIA","Miami Marlins",500000,0.5
+"hechaad01","Adeiny","Hechavarria","Adeiny Hechavarria","MIA","Miami Marlins",2200000,2.2
+"jennida01","Dan","Jennings","Dan Jennings","MIA","Miami Marlins",501500,0.5015
+"johnsre02","Reed","Johnson","Reed Johnson","MIA","Miami Marlins",1000000,1
+"jonesga02","Garrett","Jones","Garrett Jones","MIA","Miami Marlins",2750000,2.75
+"koehlto01","Tom","Koehler","Tom Koehler","MIA","Miami Marlins",515000,0.515
+"lucased01","Ed","Lucas","Ed Lucas","MIA","Miami Marlins",510000,0.51
+"marisja01","Jake","Marisnick","Jake Marisnick","MIA","Miami Marlins",500000,0.5
+"marmoca01","Carlos","Marmol","Carlos Marmol","MIA","Miami Marlins",1250000,1.25
+"mathije01","Jeff","Mathis","Jeff Mathis","MIA","Miami Marlins",1500000,1.5
+"mcgehca01","Casey","McGehee","Casey McGehee","MIA","Miami Marlins",1100000,1.1
+"ozunama01","Marcell","Ozuna","Marcell Ozuna","MIA","Miami Marlins",505000,0.505
+"ramosaj01","A. J.","Ramos","A. J. Ramos","MIA","Miami Marlins",510000,0.51
+"saltaja01","Jarrod","Saltalamacchia","Jarrod Saltalamacchia","MIA","Miami Marlins",6000000,6
+"sloweke01","Kevin","Slowey","Kevin Slowey","MIA","Miami Marlins",800000,0.8
+"solando01","Donovan","Solano","Donovan Solano","MIA","Miami Marlins",511500,0.5115
+"stantmi03","Giancarlo","Stanton","Giancarlo Stanton","MIA","Miami Marlins",6500000,6.5
+"yelicch01","Christian","Yelich","Christian Yelich","MIA","Miami Marlins",505000,0.505
+"biancje01","Jeff","Bianchi","Jeff Bianchi","MIL","Milwaukee Brewers",502000,0.502
+"braunry02","Ryan","Braun","Ryan Braun","MIL","Milwaukee Brewers",10000000,10
+"daviskh01","Khris","Davis","Khris Davis","MIL","Milwaukee Brewers",503000,0.503
+"dukeza01","Zach","Duke","Zach Duke","MIL","Milwaukee Brewers",850000,0.85
+"estrama01","Marco","Estrada","Marco Estrada","MIL","Milwaukee Brewers",3325000,3.325
+"gallayo01","Yovani","Gallardo","Yovani Gallardo","MIL","Milwaukee Brewers",11250000,11.25
+"garzama01","Matt","Garza","Matt Garza","MIL","Milwaukee Brewers",12500000,12.5
+"gennesc01","Scooter","Gennett","Scooter Gennett","MIL","Milwaukee Brewers",504000,0.504
+"gomezca01","Carlos","Gomez","Carlos Gomez","MIL","Milwaukee Brewers",7000000,7
+"gorzeto01","Tom","Gorzelanny","Tom Gorzelanny","MIL","Milwaukee Brewers",2950000,2.95
+"hendeji01","Jim","Henderson","Jim Henderson","MIL","Milwaukee Brewers",512000,0.512
+"herreel01","Elian","Herrera","Elian Herrera","MIL","Milwaukee Brewers",500000,0.5
+"kintzbr01","Brandon","Kintzler","Brandon Kintzler","MIL","Milwaukee Brewers",507000,0.507
+"lohseky01","Kyle","Lohse","Kyle Lohse","MIL","Milwaukee Brewers",11000000,11
+"lucrojo01","Jonathan","Lucroy","Jonathan Lucroy","MIL","Milwaukee Brewers",2000000,2
+"maldoma01","Martin","Maldonado","Martin Maldonado","MIL","Milwaukee Brewers",502000,0.502
+"overbly01","Lyle","Overbay","Lyle Overbay","MIL","Milwaukee Brewers",1500000,1.5
+"peralwi01","Wily","Peralta","Wily Peralta","MIL","Milwaukee Brewers",515000,0.515
+"ramirar01","Aramis","Ramirez","Aramis Ramirez","MIL","Milwaukee Brewers",16000000,16
+"reynoma01","Mark","Reynolds","Mark Reynolds","MIL","Milwaukee Brewers",2000000,2
+"rodrifr03","Francisco","Rodriguez","Francisco Rodriguez","MIL","Milwaukee Brewers",3250000,3.25
+"schaflo01","Logan","Schafer","Logan Schafer","MIL","Milwaukee Brewers",505000,0.505
+"segurje01","Jean","Segura","Jean Segura","MIL","Milwaukee Brewers",534000,0.534
+"smithwi04","Will","Smith","Will Smith","MIL","Milwaukee Brewers",502000,0.502
+"thornty01","Tyler","Thornburg","Tyler Thornburg","MIL","Milwaukee Brewers",505000,0.505
+"weeksri01","Rickie","Weeks","Rickie Weeks","MIL","Milwaukee Brewers",11000000,11
+"wootero01","Rob","Wooten","Rob Wooten","MIL","Milwaukee Brewers",501000,0.501
+"arciaos01","Oswaldo","Arcia","Oswaldo Arcia","MIN","Minnesota Twins",512500,0.5125
+"bartlja01","Jason","Bartlett","Jason Bartlett","MIN","Minnesota Twins",1000000,1
+"burtoja01","Jared","Burton","Jared Burton","MIN","Minnesota Twins",3250000,3.25
+"colabch01","Chris","Colabello","Chris Colabello","MIN","Minnesota Twins",505000,0.505
+"dedunsa01","Sam","Deduno","Sam Deduno","MIN","Minnesota Twins",520000,0.52
+"doziebr01","Brian","Dozier","Brian Dozier","MIN","Minnesota Twins",540000,0.54
+"duensbr01","Brian","Duensing","Brian Duensing","MIN","Minnesota Twins",2000000,2
+"escobed01","Eduardo","Escobar","Eduardo Escobar","MIN","Minnesota Twins",507500,0.5075
+"fienca01","Casey","Fien","Casey Fien","MIN","Minnesota Twins",530000,0.53
+"floripe01","Pedro","Florimon","Pedro Florimon","MIN","Minnesota Twins",517500,0.5175
+"fuldsa01","Sam","Fuld","Sam Fuld","MIN","Minnesota Twins",800000,0.8
+"gibsoky01","Kyle","Gibson","Kyle Gibson","MIN","Minnesota Twins",502500,0.5025
+"herrmch01","Chris","Herrmann","Chris Herrmann","MIN","Minnesota Twins",500000,0.5
+"hicksaa01","Aaron","Hicks","Aaron Hicks","MIN","Minnesota Twins",507500,0.5075
+"hugheph01","Phil","Hughes","Phil Hughes","MIN","Minnesota Twins",8000000,8
+"kubelja01","Jason","Kubel","Jason Kubel","MIN","Minnesota Twins",2000000,2
+"mauerjo01","Joe","Mauer","Joe Mauer","MIN","Minnesota Twins",23000000,23
+"moralke01","Kendrys","Morales","Kendrys Morales","MIN","Minnesota Twins",7410000,7.41
+"nolasri01","Ricky","Nolasco","Ricky Nolasco","MIN","Minnesota Twins",12000000,12
+"perkigl01","Glen","Perkins","Glen Perkins","MIN","Minnesota Twins",4025000,4.025
+"pintojo01","Josmil","Pinto","Josmil Pinto","MIN","Minnesota Twins",500000,0.5
+"plouftr01","Trevor","Plouffe","Trevor Plouffe","MIN","Minnesota Twins",2350000,2.35
+"schafjo02","Jordan","Schafer","Jordan Schafer","MIN","Minnesota Twins",1090000,1.09
+"suzukku01","Kurt","Suzuki","Kurt Suzuki","MIN","Minnesota Twins",2750000,2.75
+"swarzan01","Anthony","Swarzak","Anthony Swarzak","MIN","Minnesota Twins",935000,0.935
+"thielca01","Caleb","Thielbar","Caleb Thielbar","MIN","Minnesota Twins",510000,0.51
+"willijo03","Josh","Willingham","Josh Willingham","MIN","Minnesota Twins",7000000,7
+"almonzo01","Zoilo","Almonte","Zoilo Almonte","NYA","New York Yankees",511300,0.5113
+"beltrca01","Carlos","Beltran","Carlos Beltran","NYA","New York Yankees",15000000,15
+"betande01","Dellin","Betances","Dellin Betances","NYA","New York Yankees",502100,0.5021
+"cervefr01","Francisco","Cervelli","Francisco Cervelli","NYA","New York Yankees",700000,0.7
+"claibpr01","Preston","Claiborne","Preston Claiborne","NYA","New York Yankees",511325,0.511325
+"ellsbja01","Jacoby","Ellsbury","Jacoby Ellsbury","NYA","New York Yankees",21142857,21.142857
+"gardnbr01","Brett","Gardner","Brett Gardner","NYA","New York Yankees",5600000,5.6
+"jeterde01","Derek","Jeter","Derek Jeter","NYA","New York Yankees",12000000,12
+"kellesh01","Shawn","Kelley","Shawn Kelley","NYA","New York Yankees",1765000,1.765
+"kurodhi01","Hiroki","Kuroda","Hiroki Kuroda","NYA","New York Yankees",16000000,16
+"mccanbr01","Brian","McCann","Brian McCann","NYA","New York Yankees",17000000,17
+"murphjr01","J. R.","Murphy","J. R. Murphy","NYA","New York Yankees",502700,0.5027
+"phelpda01","David","Phelps","David Phelps","NYA","New York Yankees",541425,0.541425
+"roberbr01","Brian","Roberts","Brian Roberts","NYA","New York Yankees",2000000,2
+"roberda08","David","Robertson","David Robertson","NYA","New York Yankees",5215000,5.215
+"rominau01","Austin","Romine","Austin Romine","NYA","New York Yankees",524800,0.5248
+"ryanbr01","Brendan","Ryan","Brendan Ryan","NYA","New York Yankees",2000000,2
+"sabatcc01","CC","Sabathia","CC Sabathia","NYA","New York Yankees",23000000,23
+"soriaal01","Alfonso","Soriano","Alfonso Soriano","NYA","New York Yankees",18000000,18
+"suzukic01","Ichiro","Suzuki","Ichiro Suzuki","NYA","New York Yankees",6500000,6.5
+"tanakma01","Masahiro","Tanaka","Masahiro Tanaka","NYA","New York Yankees",22000000,22
+"teixema01","Mark","Teixeira","Mark Teixeira","NYA","New York Yankees",22500000,22.5
+"thornma01","Matt","Thornton","Matt Thornton","NYA","New York Yankees",3500000,3.5
+"warread01","Adam","Warren","Adam Warren","NYA","New York Yankees",527400,0.5274
+"davisik02","Ike","Davis","Ike Davis","NYN","New York Mets",3500000,3.5
+"wrighda03","David","Wright","David Wright","NYN","New York Mets",20000000,20
+"youngch04","Chris","Young","Chris Young","NYN","New York Mets",7250000,7.25
+"abadfe01","Fernando","Abad","Fernando Abad","OAK","Oakland Athletics",525900,0.5259
+"bartoda02","Daric","Barton","Daric Barton","OAK","Oakland Athletics",1250000,1.25
+"callaal01","Alberto","Callaspo","Alberto Callaspo","OAK","Oakland Athletics",4875000,4.875
+"cespeyo01","Yoenis","Cespedes","Yoenis Cespedes","OAK","Oakland Athletics",10500000,10.5
+"chaveje01","Jesse","Chavez","Jesse Chavez","OAK","Oakland Athletics",775000,0.775
+"cookry01","Ryan","Cook","Ryan Cook","OAK","Oakland Athletics",505000,0.505
+"crispco01","Coco","Crisp","Coco Crisp","OAK","Oakland Athletics",7500000,7.5
+"donaljo02","Josh","Donaldson","Josh Donaldson","OAK","Oakland Athletics",500000,0.5
+"doolise01","Sean","Doolittle","Sean Doolittle","OAK","Oakland Athletics",630000,0.63
+"gentrcr01","Craig","Gentry","Craig Gentry","OAK","Oakland Athletics",1145000,1.145
+"grayso01","Sonny","Gray","Sonny Gray","OAK","Oakland Athletics",502500,0.5025
+"gregelu01","Luke","Gregerson","Luke Gregerson","OAK","Oakland Athletics",5065000,5.065
+"jasojo01","John","Jaso","John Jaso","OAK","Oakland Athletics",2300000,2.3
+"johnsji04","Jim","Johnson","Jim Johnson","OAK","Oakland Athletics",10000000,10
+"kazmisc01","Scott","Kazmir","Scott Kazmir","OAK","Oakland Athletics",7000000,7
+"lowrije01","Jed","Lowrie","Jed Lowrie","OAK","Oakland Athletics",5250000,5.25
+"milonto01","Tommy","Milone","Tommy Milone","OAK","Oakland Athletics",510000,0.51
+"mossbr01","Brandon","Moss","Brandon Moss","OAK","Oakland Athletics",4100000,4.1
+"norride01","Derek","Norris","Derek Norris","OAK","Oakland Athletics",505000,0.505
+"oflaher01","Eric","O'Flaherty","Eric O'Flaherty","OAK","Oakland Athletics",1500000,1.5
+"oteroda01","Dan","Otero","Dan Otero","OAK","Oakland Athletics",502500,0.5025
+"puntoni01","Nick","Punto","Nick Punto","OAK","Oakland Athletics",2750000,2.75
+"reddijo01","Josh","Reddick","Josh Reddick","OAK","Oakland Athletics",2700000,2.7
+"scribev01","Evan","Scribner","Evan Scribner","OAK","Oakland Athletics",505000,0.505
+"sogarer01","Eric","Sogard","Eric Sogard","OAK","Oakland Athletics",510000,0.51
+"vogtst01","Stephen","Vogt","Stephen Vogt","OAK","Oakland Athletics",502500,0.5025
+"adamsmi03","Mike","Adams","Mike Adams","PHI","Philadelphia Phillies",7000000,7
+"ascheco01","Cody","Asche","Cody Asche","PHI","Philadelphia Phillies",500000,0.5
+"aumonph01","Phillippe","Aumont","Phillippe Aumont","PHI","Philadelphia Phillies",500000,0.5
+"bastaan01","Antonio","Bastardo","Antonio Bastardo","PHI","Philadelphia Phillies",2000000,2
+"browndo01","Domonic","Brown","Domonic Brown","PHI","Philadelphia Phillies",550000,0.55
+"burneaj01","A. J.","Burnett","A. J. Burnett","PHI","Philadelphia Phillies",15000000,15
+"byrdma01","Marlon","Byrd","Marlon Byrd","PHI","Philadelphia Phillies",8000000,8
+"carmofa01","Roberto","Hernandez","Roberto Hernandez","PHI","Philadelphia Phillies",4500000,4.5
+"defraju01","Justin","De Fratus","Justin De Fratus","PHI","Philadelphia Phillies",513000,0.513
+"diekmja01","Jake","Diekman","Jake Diekman","PHI","Philadelphia Phillies",515500,0.5155
+"galvifr01","Freddy","Galvis","Freddy Galvis","PHI","Philadelphia Phillies",500000,0.5
+"gonzami05","Miguel","Gonzalez","Miguel Gonzalez","PHI","Philadelphia Phillies",3666667,3.666667
+"gwynnto02","Tony","Gwynn","Tony Gwynn","PHI","Philadelphia Phillies",900000,0.9
+"hamelco01","Cole","Hamels","Cole Hamels","PHI","Philadelphia Phillies",22500000,22.5
+"hernace02","Cesar","Hernandez","Cesar Hernandez","PHI","Philadelphia Phillies",500000,0.5
+"howarry01","Ryan","Howard","Ryan Howard","PHI","Philadelphia Phillies",25000000,25
+"kendrky01","Kyle","Kendrick","Kyle Kendrick","PHI","Philadelphia Phillies",7675000,7.675
+"leecl02","Cliff","Lee","Cliff Lee","PHI","Philadelphia Phillies",25000000,25
+"lincobr01","Brad","Lincoln","Brad Lincoln","PHI","Philadelphia Phillies",512300,0.5123
+"martiet01","Ethan","Martin","Ethan Martin","PHI","Philadelphia Phillies",500000,0.5
+"maybejo02","John","Mayberry","John Mayberry","PHI","Philadelphia Phillies",1587500,1.5875
+"nievewi01","Wil","Nieves","Wil Nieves","PHI","Philadelphia Phillies",1125000,1.125
+"nixja01","Jayson","Nix","Jayson Nix","PHI","Philadelphia Phillies",950000,0.95
+"papeljo01","Jonathan","Papelbon","Jonathan Papelbon","PHI","Philadelphia Phillies",13000000,13
+"pettijo02","Jonathan","Pettibone","Jonathan Pettibone","PHI","Philadelphia Phillies",500000,0.5
+"reverbe01","Ben","Revere","Ben Revere","PHI","Philadelphia Phillies",1950000,1.95
+"rolliji01","Jimmy","Rollins","Jimmy Rollins","PHI","Philadelphia Phillies",11000000,11
+"rosenbj01","B. J.","Rosenberg","B. J. Rosenberg","PHI","Philadelphia Phillies",500000,0.5
+"rufda01","Darin","Ruf","Darin Ruf","PHI","Philadelphia Phillies",500000,0.5
+"ruizca01","Carlos","Ruiz","Carlos Ruiz","PHI","Philadelphia Phillies",8500000,8.5
+"ruppca01","Cameron","Rupp","Cameron Rupp","PHI","Philadelphia Phillies",500000,0.5
+"utleych01","Chase","Utley","Chase Utley","PHI","Philadelphia Phillies",15000000,15
+"alvarpe01","Pedro","Alvarez","Pedro Alvarez","PIT","Pittsburgh Pirates",4250000,4.25
+"barmecl01","Clint","Barmes","Clint Barmes","PIT","Pittsburgh Pirates",2000000,2
+"colege01","Gerrit","Cole","Gerrit Cole","PIT","Pittsburgh Pirates",512500,0.5125
+"cumptbr01","Brandon","Cumpton","Brandon Cumpton","PIT","Pittsburgh Pirates",507000,0.507
+"gomezje01","Jeanmar","Gomez","Jeanmar Gomez","PIT","Pittsburgh Pirates",514500,0.5145
+"grillja01","Jason","Grilli","Jason Grilli","PIT","Pittsburgh Pirates",4250000,4.25
+"harrijo05","Josh","Harrison","Josh Harrison","PIT","Pittsburgh Pirates",513000,0.513
+"liriafr01","Francisco","Liriano","Francisco Liriano","PIT","Pittsburgh Pirates",6000000,6
+"lockeje01","Jeff","Locke","Jeff Locke","PIT","Pittsburgh Pirates",513000,0.513
+"martest01","Starling","Marte","Starling Marte","PIT","Pittsburgh Pirates",500000,0.5
+"martiru01","Russell","Martin","Russell Martin","PIT","Pittsburgh Pirates",8500000,8.5
+"mazzavi01","Vin","Mazzaro","Vin Mazzaro","PIT","Pittsburgh Pirates",950000,0.95
+"mccutan01","Andrew","McCutchen","Andrew McCutchen","PIT","Pittsburgh Pirates",7250000,7.25
+"melanma01","Mark","Melancon","Mark Melancon","PIT","Pittsburgh Pirates",2595000,2.595
+"mercejo03","Jordy","Mercer","Jordy Mercer","PIT","Pittsburgh Pirates",515500,0.5155
+"morribr01","Bryan","Morris","Bryan Morris","PIT","Pittsburgh Pirates",511500,0.5115
+"mortoch02","Charlie","Morton","Charlie Morton","PIT","Pittsburgh Pirates",4000000,4
+"pimenst01","Stolmy","Pimentel","Stolmy Pimentel","PIT","Pittsburgh Pirates",505500,0.5055
+"rodriwa01","Wandy","Rodriguez","Wandy Rodriguez","PIT","Pittsburgh Pirates",13000000,13
+"sanchga01","Gaby","Sanchez","Gaby Sanchez","PIT","Pittsburgh Pirates",2300000,2.3
+"sanchto01","Tony","Sanchez","Tony Sanchez","PIT","Pittsburgh Pirates",507000,0.507
+"snidetr01","Travis","Snider","Travis Snider","PIT","Pittsburgh Pirates",1200000,1.2
+"stewach01","Chris","Stewart","Chris Stewart","PIT","Pittsburgh Pirates",1000000,1
+"tabatjo01","Jose","Tabata","Jose Tabata","PIT","Pittsburgh Pirates",3000000,3
+"volqued01","Edinson","Volquez","Edinson Volquez","PIT","Pittsburgh Pirates",5000000,5
+"walkene01","Neil","Walker","Neil Walker","PIT","Pittsburgh Pirates",5750000,5.75
+"watsoto01","Tony","Watson","Tony Watson","PIT","Pittsburgh Pirates",518500,0.5185
+"wilsoju10","Justin","Wilson","Justin Wilson","PIT","Pittsburgh Pirates",515000,0.515
+"alonsyo01","Yonder","Alonso","Yonder Alonso","SDN","San Diego Padres",980000,0.98
+"amarial01","Alexi","Amarista","Alexi Amarista","SDN","San Diego Padres",511100,0.5111
+"benoijo01","Joaquin","Benoit","Joaquin Benoit","SDN","San Diego Padres",6000000,6
+"blankky01","Kyle","Blanks","Kyle Blanks","SDN","San Diego Padres",988000,0.988
+"cabreev01","Everth","Cabrera","Everth Cabrera","SDN","San Diego Padres",2450000,2.45
+"cashnan01","Andrew","Cashner","Andrew Cashner","SDN","San Diego Padres",2400000,2.4
+"denorch01","Chris","Denorfia","Chris Denorfia","SDN","San Diego Padres",2250000,2.25
+"erlinro01","Robbie","Erlin","Robbie Erlin","SDN","San Diego Padres",504500,0.5045
+"grandya01","Yasmani","Grandal","Yasmani Grandal","SDN","San Diego Padres",792000,0.792
+"gyorkje01","Jedd","Gyorko","Jedd Gyorko","SDN","San Diego Padres",510900,0.5109
+"headlch01","Chase","Headley","Chase Headley","SDN","San Diego Padres",10525000,10.525
+"kenneia01","Ian","Kennedy","Ian Kennedy","SDN","San Diego Padres",6100000,6.1
+"maybica01","Cameron","Maybin","Cameron Maybin","SDN","San Diego Padres",5000000,5
+"medicto01","Tommy","Medica","Tommy Medica","SDN","San Diego Padres",501200,0.5012
+"nadyxa01","Xavier","Nady","Xavier Nady","SDN","San Diego Padres",775000,0.775
+"pattotr01","Troy","Patton","Troy Patton","SDN","San Diego Padres",1275000,1.275
+"quentca01","Carlos","Quentin","Carlos Quentin","SDN","San Diego Padres",9500000,9.5
+"riverre01","Rene","Rivera","Rene Rivera","SDN","San Diego Padres",506400,0.5064
+"rossty01","Tyson","Ross","Tyson Ross","SDN","San Diego Padres",1980000,1.98
+"smithse01","Seth","Smith","Seth Smith","SDN","San Diego Padres",4500000,4.5
+"staufti01","Tim","Stauffer","Tim Stauffer","SDN","San Diego Padres",1600000,1.6
+"streehu01","Huston","Street","Huston Street","SDN","San Diego Padres",7000000,7
+"stulter01","Eric","Stults","Eric Stults","SDN","San Diego Padres",2750000,2.75
+"thayeda01","Dale","Thayer","Dale Thayer","SDN","San Diego Padres",515800,0.5158
+"torreal01","Alex","Torres","Alex Torres","SDN","San Diego Padres",509000,0.509
+"venabwi01","Will","Venable","Will Venable","SDN","San Diego Padres",4250000,4.25
+"vinceni01","Nick","Vincent","Nick Vincent","SDN","San Diego Padres",510200,0.5102
+"wielajo01","Joe","Wieland","Joe Wieland","SDN","San Diego Padres",501600,0.5016
+"ackledu01","Dustin","Ackley","Dustin Ackley","SEA","Seattle Mariners",1700000,1.7
+"beimejo01","Joe","Beimel","Joe Beimel","SEA","Seattle Mariners",850000,0.85
+"bloomwi01","Willie","Bloomquist","Willie Bloomquist","SEA","Seattle Mariners",2800000,2.8
+"buckjo01","John","Buck","John Buck","SEA","Seattle Mariners",1000000,1
+"canoro01","Robinson","Cano","Robinson Cano","SEA","Seattle Mariners",24000000,24
+"farquda01","Danny","Farquhar","Danny Farquhar","SEA","Seattle Mariners",510800,0.5108
+"frankni01","Nick","Franklin","Nick Franklin","SEA","Seattle Mariners",510200,0.5102
+"furbuch01","Charlie","Furbush","Charlie Furbush","SEA","Seattle Mariners",750000,0.75
+"hartco01","Corey","Hart","Corey Hart","SEA","Seattle Mariners",6000000,6
+"hernafe02","Felix","Hernandez","Felix Hernandez","SEA","Seattle Mariners",22857000,22.857
+"iwakuhi01","Hisashi","Iwakuma","Hisashi Iwakuma","SEA","Seattle Mariners",6500000,6.5
+"jacksau01","Austin","Jackson","Austin Jackson","SEA","Seattle Mariners",6000000,6
+"maurebr01","Brandon","Maurer","Brandon Maurer","SEA","Seattle Mariners",504600,0.5046
+"medinyo01","Yoervis","Medina","Yoervis Medina","SEA","Seattle Mariners",512600,0.5126
+"millebr02","Brad","Miller","Brad Miller","SEA","Seattle Mariners",510100,0.5101
+"morrilo01","Logan","Morrison","Logan Morrison","SEA","Seattle Mariners",1750000,1.75
+"paxtoja01","James","Paxton","James Paxton","SEA","Seattle Mariners",503500,0.5035
+"ramirer02","Erasmo","Ramirez","Erasmo Ramirez","SEA","Seattle Mariners",511800,0.5118
+"rodnefe01","Fernando","Rodney","Fernando Rodney","SEA","Seattle Mariners",7000000,7
+"saundmi01","Michael","Saunders","Michael Saunders","SEA","Seattle Mariners",2300000,2.3
+"seageky01","Kyle","Seager","Kyle Seager","SEA","Seattle Mariners",540100,0.5401
+"smoakju01","Justin","Smoak","Justin Smoak","SEA","Seattle Mariners",2637500,2.6375
+"wilheto01","Tom","Wilhelmsen","Tom Wilhelmsen","SEA","Seattle Mariners",528800,0.5288
+"youngch03","Chris","Young","Chris Young","SEA","Seattle Mariners",1250000,1.25
+"zuninmi01","Mike","Zunino","Mike Zunino","SEA","Seattle Mariners",504100,0.5041
+"cainma01","Matt","Cain","Matt Cain","SFN","San Francisco Giants",20000000,20
+"adamsma01","Matt","Adams","Matt Adams","SLN","St. Louis Cardinals",516000,0.516
+"bourjpe01","Peter","Bourjos","Peter Bourjos","SLN","St. Louis Cardinals",1200000,1.2
+"butleke01","Keith","Butler","Keith Butler","SLN","St. Louis Cardinals",500000,0.5
+"carpema01","Matt","Carpenter","Matt Carpenter","SLN","St. Louis Cardinals",1000000,1
+"choatra01","Randy","Choate","Randy Choate","SLN","St. Louis Cardinals",3000000,3
+"cruzto03","Tony","Cruz","Tony Cruz","SLN","St. Louis Cardinals",521000,0.521
+"descada01","Daniel","Descalso","Daniel Descalso","SLN","St. Louis Cardinals",1290000,1.29
+"ellisma01","Mark","Ellis","Mark Ellis","SLN","St. Louis Cardinals",5250000,5.25
+"garcija02","Jaime","Garcia","Jaime Garcia","SLN","St. Louis Cardinals",7750000,7.75
+"hollima01","Matt","Holliday","Matt Holliday","SLN","St. Louis Cardinals",17000000,17
+"jayjo02","Jon","Jay","Jon Jay","SLN","St. Louis Cardinals",3250000,3.25
+"kellyjo05","Joe","Kelly","Joe Kelly","SLN","St. Louis Cardinals",523000,0.523
+"kozmape01","Pete","Kozma","Pete Kozma","SLN","St. Louis Cardinals",518000,0.518
+"lackejo01","John","Lackey","John Lackey","SLN","St. Louis Cardinals",15250000,15.25
+"lynnla01","Lance","Lynn","Lance Lynn","SLN","St. Louis Cardinals",535000,0.535
+"manesse01","Seth","Maness","Seth Maness","SLN","St. Louis Cardinals",509000,0.509
+"martica04","Carlos","Martinez","Carlos Martinez","SLN","St. Louis Cardinals",505000,0.505
+"millesh01","Shelby","Miller","Shelby Miller","SLN","St. Louis Cardinals",521000,0.521
+"molinya01","Yadier","Molina","Yadier Molina","SLN","St. Louis Cardinals",15000000,15
+"motteja01","Jason","Motte","Jason Motte","SLN","St. Louis Cardinals",7500000,7.5
+"neshepa01","Pat","Neshek","Pat Neshek","SLN","St. Louis Cardinals",1000000,1
+"peraljh01","Jhonny","Peralta","Jhonny Peralta","SLN","St. Louis Cardinals",15500000,15.5
+"robinsh01","Shane","Robinson","Shane Robinson","SLN","St. Louis Cardinals",519000,0.519
+"rosentr01","Trevor","Rosenthal","Trevor Rosenthal","SLN","St. Louis Cardinals",521000,0.521
+"siegrke01","Kevin","Siegrist","Kevin Siegrist","SLN","St. Louis Cardinals",505000,0.505
+"wachami01","Michael","Wacha","Michael Wacha","SLN","St. Louis Cardinals",510000,0.51
+"wainwad01","Adam","Wainwright","Adam Wainwright","SLN","St. Louis Cardinals",19500000,19.5
+"wongko01","Kolten","Wong","Kolten Wong","SLN","St. Louis Cardinals",500000,0.5
+"archech01","Chris","Archer","Chris Archer","TBA","Tampa Bay Rays",500000,0.5
+"balfogr01","Grant","Balfour","Grant Balfour","TBA","Tampa Bay Rays",4000000,4
+"bellhe01","Heath","Bell","Heath Bell","TBA","Tampa Bay Rays",9000000,9
+"cobbal01","Alex","Cobb","Alex Cobb","TBA","Tampa Bay Rays",516900,0.5169
+"dejesda01","David","DeJesus","David DeJesus","TBA","Tampa Bay Rays",4250000,4.25
+"escobyu01","Yunel","Escobar","Yunel Escobar","TBA","Tampa Bay Rays",5000000,5
+"forsylo01","Logan","Forsythe","Logan Forsythe","TBA","Tampa Bay Rays",509700,0.5097
+"gomesbr01","Brandon","Gomes","Brandon Gomes","TBA","Tampa Bay Rays",507800,0.5078
+"guyerbr01","Brandon","Guyer","Brandon Guyer","TBA","Tampa Bay Rays",501200,0.5012
+"hanigry01","Ryan","Hanigan","Ryan Hanigan","TBA","Tampa Bay Rays",2750000,2.75
+"jennide01","Desmond","Jennings","Desmond Jennings","TBA","Tampa Bay Rays",517000,0.517
+"joycema01","Matthew","Joyce","Matthew Joyce","TBA","Tampa Bay Rays",3700000,3.7
+"loneyja01","James","Loney","James Loney","TBA","Tampa Bay Rays",1000000,1
+"longoev01","Evan","Longoria","Evan Longoria","TBA","Tampa Bay Rays",7500000,7.5
+"luekejo01","Josh","Lueke","Josh Lueke","TBA","Tampa Bay Rays",504200,0.5042
+"mcgeeja01","Jake","McGee","Jake McGee","TBA","Tampa Bay Rays",1450000,1.45
+"molinjo01","Jose","Molina","Jose Molina","TBA","Tampa Bay Rays",1750000,1.75
+"myerswi01","Wil","Myers","Wil Myers","TBA","Tampa Bay Rays",504200,0.5042
+"nunezle01","Juan Carlos","Oviedo","Juan Carlos Oviedo","TBA","Tampa Bay Rays",1500000,1.5
+"odorija01","Jake","Odorizzi","Jake Odorizzi","TBA","Tampa Bay Rays",503100,0.5031
+"peraljo01","Joel","Peralta","Joel Peralta","TBA","Tampa Bay Rays",3000000,3
+"priceda01","David","Price","David Price","TBA","Tampa Bay Rays",14000000,14
+"ramosce01","Cesar","Ramos","Cesar Ramos","TBA","Tampa Bay Rays",750000,0.75
+"rodrise01","Sean","Rodriguez","Sean Rodriguez","TBA","Tampa Bay Rays",1475000,1.475
+"zobribe01","Ben","Zobrist","Ben Zobrist","TBA","Tampa Bay Rays",7000000,7
+"adducji02","Jim","Adduci","Jim Adduci","TEX","Texas Rangers",501000,0.501
+"andruel01","Elvis","Andrus","Elvis Andrus","TEX","Texas Rangers",6475000,6.475
+"arencjp01","J. P.","Arencibia","J. P. Arencibia","TEX","Texas Rangers",1800000,1.8
+"beltrad01","Adrian","Beltre","Adrian Beltre","TEX","Texas Rangers",17000000,17
+"chiriro01","Robinson","Chirinos","Robinson Chirinos","TEX","Texas Rangers",502232,0.502232
+"choicmi01","Michael","Choice","Michael Choice","TEX","Texas Rangers",502000,0.502
+"choosh01","Shin-Soo","Choo","Shin-Soo Choo","TEX","Texas Rangers",14000000,14
+"cottsne01","Neal","Cotts","Neal Cotts","TEX","Texas Rangers",2200000,2.2
+"darviyu01","Yu","Darvish","Yu Darvish","TEX","Texas Rangers",10000000,10
+"felizne01","Neftali","Feliz","Neftali Feliz","TEX","Texas Rangers",3000000,3
+"fieldpr01","Prince","Fielder","Prince Fielder","TEX","Texas Rangers",24000000,24
+"frasoja01","Jason","Frasor","Jason Frasor","TEX","Texas Rangers",1750000,1.75
+"gimench01","Chris","Gimenez","Chris Gimenez","TEX","Texas Rangers",510000,0.51
+"martile01","Leonys","Martin","Leonys Martin","TEX","Texas Rangers",3750000,3.75
+"morelmi01","Mitch","Moreland","Mitch Moreland","TEX","Texas Rangers",2650000,2.65
+"murphdo01","Donnie","Murphy","Donnie Murphy","TEX","Texas Rangers",825000,0.825
+"ogandal01","Alexi","Ogando","Alexi Ogando","TEX","Texas Rangers",2625000,2.625
+"perezma02","Martin","Perez","Martin Perez","TEX","Texas Rangers",750000,0.75
+"riosal01","Alex","Rios","Alex Rios","TEX","Texas Rangers",12500000,12.5
+"rosalad01","Adam","Rosales","Adam Rosales","TEX","Texas Rangers",750000,0.75
+"rossro01","Robbie","Ross","Robbie Ross","TEX","Texas Rangers",512745,0.512745
+"sotoge01","Geovany","Soto","Geovany Soto","TEX","Texas Rangers",3050000,3.05
+"tollesh01","Shawn","Tolleson","Shawn Tolleson","TEX","Texas Rangers",502082,0.502082
+"willije01","Jeff","Williams","Jeff Williams","TEX","Texas Rangers",2100000,2.1
+"bautijo02","Jose","Bautista","Jose Bautista","TOR","Toronto Blue Jays",14000000,14
+"cabreme01","Melky","Cabrera","Melky Cabrera","TOR","Toronto Blue Jays",8000000,8
+"cecilbr01","Brett","Cecil","Brett Cecil","TOR","Toronto Blue Jays",1300000,1.3
+"delabst01","Steve","Delabar","Steve Delabar","TOR","Toronto Blue Jays",515900,0.5159
+"dickera01","R. A.","Dickey","R. A. Dickey","TOR","Toronto Blue Jays",12000000,12
+"encared01","Edwin","Encarnacion","Edwin Encarnacion","TOR","Toronto Blue Jays",9000000,9
+"goinsry01","Ryan","Goins","Ryan Goins","TOR","Toronto Blue Jays",501900,0.5019
+"happja01","J. A.","Happ","J. A. Happ","TOR","Toronto Blue Jays",5200000,5.2
+"hutchdr01","Drew","Hutchison","Drew Hutchison","TOR","Toronto Blue Jays",503200,0.5032
+"izturma01","Maicer","Izturis","Maicer Izturis","TOR","Toronto Blue Jays",3000000,3
+"janssca01","Casey","Janssen","Casey Janssen","TOR","Toronto Blue Jays",4000000,4
+"kratzer01","Erik","Kratz","Erik Kratz","TOR","Toronto Blue Jays",510200,0.5102
+"lawribr01","Brett","Lawrie","Brett Lawrie","TOR","Toronto Blue Jays",516100,0.5161
+"lindad01","Adam","Lind","Adam Lind","TOR","Toronto Blue Jays",7000000,7
+"loupaa01","Aaron","Loup","Aaron Loup","TOR","Toronto Blue Jays",512400,0.5124
+"mcgowdu01","Dustin","McGowan","Dustin McGowan","TOR","Toronto Blue Jays",1500000,1.5
+"morrobr01","Brandon","Morrow","Brandon Morrow","TOR","Toronto Blue Jays",8000000,8
+"navardi01","Dioner","Navarro","Dioner Navarro","TOR","Toronto Blue Jays",3000000,3
+"rasmuco01","Colby","Rasmus","Colby Rasmus","TOR","Toronto Blue Jays",7000000,7
+"redmoto01","Todd","Redmond","Todd Redmond","TOR","Toronto Blue Jays",505700,0.5057
+"reyesjo01","Jose","Reyes","Jose Reyes","TOR","Toronto Blue Jays",16000000,16
+"rogeres01","Esmil","Rogers","Esmil Rogers","TOR","Toronto Blue Jays",1850000,1.85
+"santose01","Sergio","Santos","Sergio Santos","TOR","Toronto Blue Jays",3750000,3.75
+"sierrmo01","Moises","Sierra","Moises Sierra","TOR","Toronto Blue Jays",504700,0.5047
+"tholejo01","Josh","Thole","Josh Thole","TOR","Toronto Blue Jays",1250000,1.25
+"blevije01","Jerry","Blevins","Jerry Blevins","WAS","Washington Nationals",1675000,1.675
+"cedenxa01","Xavier","Cedeno","Xavier Cedeno","WAS","Washington Nationals",507800,0.5078
+"clippty01","Tyler","Clippard","Tyler Clippard","WAS","Washington Nationals",5875000,5.875
+"desmoia01","Ian","Desmond","Ian Desmond","WAS","Washington Nationals",6500000,6.5
+"detwiro01","Ross","Detwiler","Ross Detwiler","WAS","Washington Nationals",3000000,3
+"espinda01","Danny","Espinosa","Danny Espinosa","WAS","Washington Nationals",540580,0.54058
+"fistedo01","Doug","Fister","Doug Fister","WAS","Washington Nationals",7200000,7.2
+"frandke01","Kevin","Frandsen","Kevin Frandsen","WAS","Washington Nationals",900000,0.9
+"gonzagi01","Gio","Gonzalez","Gio Gonzalez","WAS","Washington Nationals",8500000,8.5
+"hairssc01","Scott","Hairston","Scott Hairston","WAS","Washington Nationals",2500000,2.5
+"harpebr03","Bryce","Harper","Bryce Harper","WAS","Washington Nationals",2150000,2.15
+"jordata01","Taylor","Jordan","Taylor Jordan","WAS","Washington Nationals",504300,0.5043
+"koberje01","Jeff","Kobernus","Jeff Kobernus","WAS","Washington Nationals",501000,0.501
+"larocad01","Adam","LaRoche","Adam LaRoche","WAS","Washington Nationals",12000000,12
+"leonsa01","Sandy","Leon","Sandy Leon","WAS","Washington Nationals",501000,0.501
+"lobatjo01","Jose","Lobaton","Jose Lobaton","WAS","Washington Nationals",900000,0.9
+"matthry01","Ryan","Mattheus","Ryan Mattheus","WAS","Washington Nationals",520000,0.52
+"mclouna01","Nate","McLouth","Nate McLouth","WAS","Washington Nationals",5000000,5
+"moorety01","Tyler","Moore","Tyler Moore","WAS","Washington Nationals",507900,0.5079
+"ramoswi01","Wilson","Ramos","Wilson Ramos","WAS","Washington Nationals",2095000,2.095
+"rendoan01","Anthony","Rendon","Anthony Rendon","WAS","Washington Nationals",1800000,1.8
+"roarkta01","Tanner","Roark","Tanner Roark","WAS","Washington Nationals",506100,0.5061
+"soriara01","Rafael","Soriano","Rafael Soriano","WAS","Washington Nationals",11000000,11
+"spande01","Denard","Span","Denard Span","WAS","Washington Nationals",6500000,6.5
+"stammcr01","Craig","Stammen","Craig Stammen","WAS","Washington Nationals",1375000,1.375
+"storedr01","Drew","Storen","Drew Storen","WAS","Washington Nationals",3450000,3.45
+"strasst01","Stephen","Strasburg","Stephen Strasburg","WAS","Washington Nationals",3975000,3.975
+"werthja01","Jayson","Werth","Jayson Werth","WAS","Washington Nationals",20000000,20
+"zimmejo02","Jordan","Zimmermann","Jordan Zimmermann","WAS","Washington Nationals",7500000,7.5
+"zimmery01","Ryan","Zimmerman","Ryan Zimmerman","WAS","Washington Nationals",14000000,14
