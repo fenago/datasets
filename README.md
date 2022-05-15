@@ -1,6 +1,7 @@
 # datasets
 https://www.openml.org/search?type=data
 
+data.csv comes from:  https://www.kaggle.com/datasets/shree1992/housedata
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fenago/datasets/HEAD)
 </br>
