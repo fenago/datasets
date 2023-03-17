@@ -1,4 +1,19 @@
 # datasets
+
+U.S. Census Bureau Data: https://www.census.gov/
+
+World Values Survey: https://www.worldvaluessurvey.org/
+
+Pew Research Center Data: https://www.pewresearch.org/
+
+Human Rights Data Analysis Group (HRDAG): https://hrdag.org/
+
+Global Terrorism Database: https://www.start.umd.edu/gtd/
+
+National Crime Victimization Survey: https://www.bjs.gov/ncvs/
+
+Twitter API: https://developer.twitter.com/en/docs/twitter-api
+
 https://www.openml.org/search?type=data
 
 winequalityN come from: https://www.kaggle.com/datasets/shelvigarg/wine-quality-dataset
