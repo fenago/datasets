@@ -1,0 +1,4207 @@
+{
+  "version": {
+    "name": "Initial Version",
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64a5a761f39eab3bc8a74547"
+      },
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63d6e1edf4d193000763b6ce"
+      },
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63d6e1edf4d193000763b6d2"
+      },
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63d6e1edf4d193000763b6d1"
+      },
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63d6e1edf4d193000763b6d0"
+      },
+      {
+        "type": "DIAGRAM",
+        "sourceID": "649f39ab33efcf0007a0a066"
+      }
+    ],
+    "_version": 7,
+    "creatorID": 267611,
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "TestAutomationAssistant",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": [
+          {
+            "key": "7o57382s",
+            "name": "makeupproduct",
+            "color": "#A086C4",
+            "inputs": [
+              "blush",
+              "mascara",
+              "foundation",
+              "concealer",
+              "eyeshaddow,eye shaddow",
+              "eyeliner,eye liner,eyes linair",
+              "contour"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          },
+          {
+            "key": "ru10t34wy",
+            "name": "User_Email",
+            "color": "#56b365",
+            "inputs": [],
+            "type": {
+              "value": "VF.EMAIL"
+            }
+          },
+          {
+            "key": "zn1nu34s2",
+            "name": "Order_Number",
+            "color": "#616769",
+            "inputs": [],
+            "type": {
+              "value": "VF.NUMBER"
+            }
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "64a5a761f39eab3bc8a74547",
+            "storage": {},
+            "variables": {},
+            "diagramID": "64a5a761f39eab3bc8a74547"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {
+          "7o57382s": {
+            "key": "7o57382s",
+            "name": "makeupproduct",
+            "color": "#A086C4",
+            "inputs": [
+              "blush",
+              "mascara",
+              "foundation",
+              "concealer",
+              "eyeshaddow,eye shaddow",
+              "eyeliner,eye liner,eyes linair",
+              "contour"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          },
+          "ru10t34wy": {
+            "key": "ru10t34wy",
+            "name": "User_Email",
+            "color": "#56b365",
+            "inputs": [],
+            "type": {
+              "value": "VF.EMAIL"
+            }
+          },
+          "zn1nu34s2": {
+            "key": "zn1nu34s2",
+            "name": "Order_Number",
+            "color": "#616769",
+            "inputs": [],
+            "type": {
+              "value": "VF.NUMBER"
+            }
+          }
+        },
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "VF.YES",
+          "VF.NO"
+        ],
+        "goToIntentsSet": [],
+        "usedFunctionsMap": {},
+        "cmsVariables": {
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "recommendation": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "online": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "offline": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "makeup_recommendations": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "order_number": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "order_status": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "First_Name": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "gpt_api_key": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "user_question": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "GPT3_Response": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "raw": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "Last_Name": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "airtable_api_key": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "searchColumn": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "accountNumber": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "hunterio_apikey": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "sentiment": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "user_goals": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "travel_information": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "entity_check": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "departure_city": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "destination": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "Departure_Date": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "return_date": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "APIResponse": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "api_url": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "persona": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "report": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "fields": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": ""
+          }
+        }
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "recommendation",
+      "online",
+      "offline",
+      "makeup_recommendations",
+      "order_number",
+      "order_status",
+      "First_Name",
+      "gpt_api_key",
+      "user_question",
+      "GPT3_Response",
+      "raw",
+      "Last_Name",
+      "airtable_api_key",
+      "searchColumn",
+      "accountNumber",
+      "fields",
+      "hunterio_apikey",
+      "sentiment",
+      "user_goals",
+      "travel_information",
+      "entity_check",
+      "departure_city",
+      "destination",
+      "Departure_Date",
+      "return_date",
+      "APIResponse",
+      "api_url",
+      "persona",
+      "report",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory"
+    ],
+    "components": [],
+    "manualSave": false,
+    "platformData": {
+      "slots": [
+        {
+          "key": "7o57382s",
+          "name": "makeupproduct",
+          "color": "#A086C4",
+          "inputs": [
+            "blush",
+            "mascara",
+            "foundation",
+            "concealer",
+            "eyeshaddow,eye shaddow",
+            "eyeliner,eye liner,eyes linair",
+            "contour"
+          ],
+          "type": {
+            "value": "Custom"
+          }
+        },
+        {
+          "key": "ru10t34wy",
+          "name": "User_Email",
+          "color": "#56b365",
+          "inputs": [],
+          "type": {
+            "value": "VF.EMAIL"
+          }
+        },
+        {
+          "key": "zn1nu34s2",
+          "name": "Order_Number",
+          "color": "#616769",
+          "inputs": [],
+          "type": {
+            "value": "VF.NUMBER"
+          }
+        }
+      ],
+      "intents": [
+        {
+          "key": "VF.START_OVER",
+          "name": "VF.START_OVER",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.STOP",
+          "name": "VF.STOP",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.NEXT",
+          "name": "VF.NEXT",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.PAUSE",
+          "name": "VF.PAUSE",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.CANCEL",
+          "name": "VF.CANCEL",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.RESUME",
+          "name": "VF.RESUME",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.REPEAT",
+          "name": "VF.REPEAT",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.PREVIOUS",
+          "name": "VF.PREVIOUS",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1688157355953-811-8114798_labor-analytics-icon-jio-sim-logo-removebg-preview.png",
+        "color": "#000000",
+        "description": "Our custom virtual assistant is here to help you.",
+        "feedback": false,
+        "image": "https://cm4-production-assets.s3.amazonaws.com/1688157353290-811-8114798_labor-analytics-icon-jio-sim-logo-removebg-preview.png",
+        "persistence": "memory",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "DrLeeGPT Miami",
+        "watermark": false,
+        "launcher": "https://cm4-production-assets.s3.amazonaws.com/1688157408165-235183-removebg-preview.png"
+      },
+      "platform": "general"
+    },
+    "canvasTemplates": [
+      {
+        "id": "3a2pj3415",
+        "name": "Open Ended Question",
+        "color": null,
+        "nodeIDs": [
+          "63dabf2cf2292221c8c63d31"
+        ]
+      },
+      {
+        "id": "ye3ex34rx",
+        "name": "Transfer to Agent Template",
+        "color": null,
+        "nodeIDs": [
+          "63dac227f2292221c8c63f65",
+          "63dac227f2292221c8c63f67",
+          "63dac227f2292221c8c63f69"
+        ]
+      },
+      {
+        "id": "a3573bgq",
+        "name": "Recommendations Template",
+        "color": "#5b9fd7",
+        "nodeIDs": [
+          "63dad5bbc6565f4a4ca2d0bd",
+          "63dad5bbc6565f4a4ca2d0bf",
+          "63dad5bbc6565f4a4ca2d0c1"
+        ]
+      },
+      {
+        "id": "855ts3bs6",
+        "name": "Main Menu Options",
+        "color": null,
+        "nodeIDs": [
+          "63db3447c6565f4a4ca2e96b",
+          "63db3447c6565f4a4ca2e96d",
+          "63db3447c6565f4a4ca2e96f",
+          "63db3447c6565f4a4ca2e971",
+          "63db3447c6565f4a4ca2e973"
+        ]
+      },
+      {
+        "id": "bk13t39yp",
+        "name": "Menu",
+        "color": null,
+        "nodeIDs": [
+          "649377ff0cb4da589be4a072",
+          "649377ff0cb4da589be4a074",
+          "649377ff0cb4da589be4a076",
+          "649377ff0cb4da589be4a078"
+        ]
+      }
+    ],
+    "autoSaveFromRestore": false,
+    "_id": "65f317412fea2ad54347184e",
+    "updatedAt": "2024-03-14T15:26:57.450Z",
+    "domains": [
+      {
+        "id": "cl7r3fp781m8407n8dg0q223d",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64a5a761f39eab3bc8a74547"
+        ],
+        "rootDiagramID": "64a5a761f39eab3bc8a74547",
+        "updatedBy": 267611,
+        "updatedAt": "2024-03-14T15:46:17.852Z"
+      }
+    ],
+    "projectID": "65f317412fea2ad54347184d",
+    "rootDiagramID": "64a5a761f39eab3bc8a74547",
+    "templateDiagramID": "64a5a761f39eab3bc8a74548"
+  },
+  "diagrams": {
+    "64a5a761f39eab3bc8a74548": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {
+        "63dabf2c8e48f700079d1e7b": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "63dabf2c8e48f700079d1e7c",
+                  "type": "next",
+                  "target": null
+                }
+              },
+              "dynamic": []
+            },
+            "steps": []
+          },
+          "nodeID": "63dabf2c8e48f700079d1e7b",
+          "coords": [
+            360,
+            120
+          ]
+        },
+        "63dabf2cf2292221c8c63d31": {
+          "type": "block",
+          "data": {
+            "name": "Open Ended Question",
+            "color": "#dc8879",
+            "steps": [
+              "63dabf2cf2292221c8c63d33",
+              "63dabf2cf2292221c8c63d36"
+            ]
+          },
+          "nodeID": "63dabf2cf2292221c8c63d31",
+          "coords": [
+            -1556.731555380888,
+            -1018.4328032807305
+          ]
+        },
+        "63dabf2cf2292221c8c63d33": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "yo2hm34uu",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How else can I help?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dabf2cf2292221c8c63d36",
+                  "id": "63dabf2cf2292221c8c63d34"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dabf2cf2292221c8c63d33"
+        },
+        "63dabf2cf2292221c8c63d36": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "noMatch": null,
+            "buttons": [
+              {
+                "id": "ca2k034kw",
+                "name": "",
+                "actions": []
+              }
+            ],
+            "noReply": null,
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dabf2cf2292221c8c63d37"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dabf2cf2292221c8c63d38"
+                }
+              ]
+            }
+          },
+          "nodeID": "63dabf2cf2292221c8c63d36"
+        },
+        "63dac227f2292221c8c63f65": {
+          "type": "block",
+          "data": {
+            "name": "Order Not Found",
+            "color": "#5b9fd7",
+            "steps": [
+              "63dac227f2292221c8c63f6b",
+              "63dac227f2292221c8c63f6e"
+            ]
+          },
+          "nodeID": "63dac227f2292221c8c63f65",
+          "coords": [
+            -225.11254839461355,
+            -545.53854965398
+          ]
+        },
+        "63dac227f2292221c8c63f67": {
+          "type": "block",
+          "data": {
+            "name": "Transfer to Agent",
+            "color": "#cf80c8",
+            "steps": [
+              "63dac227f2292221c8c63f73"
+            ]
+          },
+          "nodeID": "63dac227f2292221c8c63f67",
+          "coords": [
+            190.3185365217115,
+            -369.2041241375028
+          ]
+        },
+        "63dac227f2292221c8c63f69": {
+          "type": "block",
+          "data": {
+            "name": "Open Ended Question",
+            "color": "#dc8879",
+            "steps": [
+              "63dac227f2292221c8c63f76",
+              "63dac227f2292221c8c63f79"
+            ]
+          },
+          "nodeID": "63dac227f2292221c8c63f69",
+          "coords": [
+            -221.79055359411598,
+            -106.14817913237465
+          ]
+        },
+        "63dac227f2292221c8c63f6b": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "d624z3448",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Would you like to talk to an agent directly?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dac227f2292221c8c63f6e",
+                  "id": "63dac227f2292221c8c63f6c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dac227f2292221c8c63f6b"
+        },
+        "63dac227f2292221c8c63f6e": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "tw2cc3476",
+                "name": "Yes",
+                "actions": [],
+                "intent": "VF.YES"
+              },
+              {
+                "id": "af2cq34r0",
+                "name": "No",
+                "actions": [],
+                "intent": "VF.NO"
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dac227f2292221c8c63f6f"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63dac227f2292221c8c63f67",
+                  "id": "63dac227f2292221c8c63f70",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -58.22333080088687,
+                          -289.5312975852002
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -16.452297551387925,
+                          -289.5312975852002
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -16.452297551387925,
+                          -342.2038600921714
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          25.31873569811079,
+                          -342.2038600921714
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "63dac227f2292221c8c63f69",
+                  "id": "63dac227f2292221c8c63f71",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -58.22314539051139,
+                          -212.56948937265696
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -34.22314539051139,
+                          -212.56948937265696
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -34.22314539051139,
+                          -138.96867120528094
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -221.7902686160936,
+                          -138.96867120528094
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -221.7902686160936,
+                          -106.14774488015115
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "63dac227f2292221c8c63f6e"
+        },
+        "63dac227f2292221c8c63f73": {
+          "type": "component",
+          "data": {
+            "name": "",
+            "diagramID": "64932d45097b680007f7febf",
+            "variableMap": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dac227f2292221c8c63f74"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dac227f2292221c8c63f73"
+        },
+        "63dac227f2292221c8c63f76": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "yo2hm34uu",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How else can I help?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dac227f2292221c8c63f79",
+                  "id": "63dac227f2292221c8c63f77"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dac227f2292221c8c63f76"
+        },
+        "63dac227f2292221c8c63f79": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "ca2k034kw",
+                "name": "",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dac227f2292221c8c63f7a"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dac227f2292221c8c63f7b"
+                }
+              ]
+            }
+          },
+          "nodeID": "63dac227f2292221c8c63f79"
+        },
+        "63dac9c3f2292221c8c6486d": {
+          "type": "block",
+          "data": {
+            "name": "Core Menu",
+            "color": "",
+            "steps": [
+              "63dac9c3f2292221c8c6486f",
+              "63dac9c3f2292221c8c64872"
+            ]
+          },
+          "nodeID": "63dac9c3f2292221c8c6486d",
+          "coords": [
+            809.4337757205184,
+            -92.17718143271188
+          ]
+        },
+        "63dac9c3f2292221c8c6486f": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "gr5yh34xc",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How else can I help?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dac9c3f2292221c8c64872",
+                  "id": "63dac9c3f2292221c8c64870"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dac9c3f2292221c8c6486f"
+        },
+        "63dac9c3f2292221c8c64872": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "grq33btz",
+                "name": "Shop Beauty Products 💄",
+                "actions": []
+              },
+              {
+                "id": "x8p63bsz",
+                "name": "Orders & Purchases 👜",
+                "actions": []
+              },
+              {
+                "id": "o91fn3bgm",
+                "name": "Returns & Exchanges 🚙",
+                "actions": []
+              },
+              {
+                "id": "0rpt3bu4",
+                "name": "Customer Service 📞",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dac9c3f2292221c8c64873"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dac9c3f2292221c8c64874"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dac9c3f2292221c8c64875"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dac9c3f2292221c8c64876"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dac9c3f2292221c8c64877"
+                }
+              ]
+            }
+          },
+          "nodeID": "63dac9c3f2292221c8c64872"
+        },
+        "63dacb06f2292221c8c648e9": {
+          "type": "block",
+          "data": {
+            "name": "Transfer to Agent",
+            "color": "#cf80c8",
+            "steps": [
+              "63dacb06f2292221c8c648ef"
+            ]
+          },
+          "nodeID": "63dacb06f2292221c8c648e9",
+          "coords": [
+            -588.7022526855802,
+            114.5635770030749
+          ]
+        },
+        "63dacb06f2292221c8c648eb": {
+          "type": "block",
+          "data": {
+            "name": "Core Menu",
+            "color": "",
+            "steps": [
+              "63dacb06f2292221c8c648f2",
+              "63dacb06f2292221c8c648f5"
+            ]
+          },
+          "nodeID": "63dacb06f2292221c8c648eb",
+          "coords": [
+            -1043.4523423944738,
+            115.91338415118014
+          ]
+        },
+        "63dacb06f2292221c8c648ed": {
+          "type": "block",
+          "data": {
+            "name": "Agent Handoff",
+            "color": "",
+            "steps": [
+              "63dacb06f2292221c8c648fc",
+              "63dacb06f2292221c8c648ff"
+            ]
+          },
+          "nodeID": "63dacb06f2292221c8c648ed",
+          "coords": [
+            -817.1403674832209,
+            -170.63636900464087
+          ]
+        },
+        "63dacb06f2292221c8c648ef": {
+          "type": "component",
+          "data": {
+            "name": "",
+            "diagramID": "64932d45097b680007f7febf",
+            "variableMap": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648f0"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dacb06f2292221c8c648ef"
+        },
+        "63dacb06f2292221c8c648f2": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "gr5yh34xc",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How else can I help?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dacb06f2292221c8c648f5",
+                  "id": "63dacb06f2292221c8c648f3"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dacb06f2292221c8c648f2"
+        },
+        "63dacb06f2292221c8c648f5": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "grq33btz",
+                "name": "Shop Beauty Products 💄",
+                "actions": []
+              },
+              {
+                "id": "x8p63bsz",
+                "name": "Orders & Purchases 👜",
+                "actions": []
+              },
+              {
+                "id": "o91fn3bgm",
+                "name": "Returns & Exchanges 🚙",
+                "actions": []
+              },
+              {
+                "id": "0rpt3bu4",
+                "name": "Customer Service 📞",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648f6"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648f7"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648f8"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648f9"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c648fa"
+                }
+              ]
+            }
+          },
+          "nodeID": "63dacb06f2292221c8c648f5"
+        },
+        "63dacb06f2292221c8c648fc": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "pz6ge34h9",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Would you like to talk to an agent?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dacb06f2292221c8c648ff",
+                  "id": "63dacb06f2292221c8c648fd"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dacb06f2292221c8c648fc"
+        },
+        "63dacb06f2292221c8c648ff": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "noMatch": null,
+            "buttons": [
+              {
+                "id": "pq6in34cv",
+                "name": "Yes",
+                "actions": []
+              },
+              {
+                "id": "yy6j1349m",
+                "name": "No",
+                "actions": []
+              }
+            ],
+            "noReply": null,
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dacb06f2292221c8c64900"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63dacb06f2292221c8c648e9",
+                  "id": "63dacb06f2292221c8c64901",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -666.5357164179112,
+                          -82.58050422696317
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -588.7018998895909,
+                          -82.58050422696317
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -588.7018998895909,
+                          114.56336278887545
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "63dacb06f2292221c8c648eb",
+                  "id": "63dacb06f2292221c8c64902"
+                }
+              ]
+            }
+          },
+          "nodeID": "63dacb06f2292221c8c648ff"
+        },
+        "63dacb65f2292221c8c64a23": {
+          "type": "block",
+          "data": {
+            "name": "Transfer to Agent",
+            "color": "#b68bce",
+            "steps": [
+              "63dacb65f2292221c8c64a25"
+            ]
+          },
+          "nodeID": "63dacb65f2292221c8c64a23",
+          "coords": [
+            -1218.0809077950596,
+            -600.8864113062596
+          ]
+        },
+        "63dacb65f2292221c8c64a25": {
+          "type": "component",
+          "data": {
+            "name": "",
+            "diagramID": "64932d45097b680007f7febf",
+            "variableMap": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dacb65f2292221c8c64a26"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dacb65f2292221c8c64a25"
+        },
+        "63dad5bbc6565f4a4ca2d0bd": {
+          "type": "block",
+          "data": {
+            "name": "Transfer to Agent",
+            "color": "",
+            "steps": [
+              "63dad5bbc6565f4a4ca2d0c3"
+            ]
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0bd",
+          "coords": [
+            -1655.5582549775622,
+            1221.7244027324787
+          ]
+        },
+        "63dad5bbc6565f4a4ca2d0bf": {
+          "type": "block",
+          "data": {
+            "name": "Recommendations",
+            "color": "",
+            "steps": [
+              "63dad5bbc6565f4a4ca2d0c6",
+              "63dad5bbc6565f4a4ca2d0c9"
+            ]
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0bf",
+          "coords": [
+            -1652.3107212106142,
+            946.0899742627753
+          ]
+        },
+        "63dad5bbc6565f4a4ca2d0c1": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63dad5bbc6565f4a4ca2d0cd"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0c1",
+          "coords": [
+            -1429.2726144936191,
+            -847.7314948073781
+          ]
+        },
+        "63dad5bbc6565f4a4ca2d0c3": {
+          "type": "component",
+          "data": {
+            "name": "",
+            "diagramID": "64932d45097b680007f7febf",
+            "variableMap": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dad5bbc6565f4a4ca2d0c4"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0c3"
+        },
+        "63dad5bbc6565f4a4ca2d0c6": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "oi1jw348o",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Want to learn more or get recommendations?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63dad5bbc6565f4a4ca2d0c9",
+                  "id": "63dad5bbc6565f4a4ca2d0c7"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0c6"
+        },
+        "63dad5bbc6565f4a4ca2d0c9": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "ht1lk347v",
+                "name": "Yes",
+                "actions": []
+              },
+              {
+                "id": "l31lz34dk",
+                "name": "Main Menu",
+                "actions": [],
+                "intent": null
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dad5bbc6565f4a4ca2d0ca"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63dad5bbc6565f4a4ca2d0c3",
+                  "id": "63dad5bbc6565f4a4ca2d0cb",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1819.1997984943132,
+                          1107.895587171841
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1846.4472331543957,
+                          1107.895587171841
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1846.4472331543957,
+                          1300.321518128052
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1822.4472331543957,
+                          1300.321518128052
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "63dad5bbc6565f4a4ca2d0c1",
+                  "id": "63dad5bbc6565f4a4ca2d0cc",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0c9"
+        },
+        "63dad5bbc6565f4a4ca2d0cd": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "624614ffc2b9a40c4c658393",
+            "diagramID": "64a5a761f39eab3bc8a74547",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dad5bbc6565f4a4ca2d0cd"
+        },
+        "63dadd07c6565f4a4ca2d38a": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "blockColor": "",
+            "steps": [
+              "63dadd07c6565f4a4ca2d398"
+            ]
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d38a",
+          "coords": [
+            -852.7436660205251,
+            -262.29321061550615
+          ]
+        },
+        "63dadd07c6565f4a4ca2d38c": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "blockColor": "",
+            "steps": [
+              "63dadd07c6565f4a4ca2d39b"
+            ]
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d38c",
+          "coords": [
+            -852.7436660205251,
+            -262.29321061550615
+          ]
+        },
+        "63dadd07c6565f4a4ca2d38e": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "blockColor": "",
+            "steps": [
+              "63dadd07c6565f4a4ca2d39e"
+            ]
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d38e",
+          "coords": [
+            -852.7436660205251,
+            -262.29321061550615
+          ]
+        },
+        "63dadd07c6565f4a4ca2d390": {
+          "type": "carousel",
+          "data": {
+            "name": "",
+            "cards": [
+              {
+                "id": "814x3pek",
+                "title": "Plush Puddin’ Intensive Recovery Lip Mask",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "A lip mask with a plush, pudding-like texture that coats lips with supercharged moisture for a smoother, firmer and plumper-looking pout in 1 week."
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://www.refinery29.com/images/11238241.jpg?format=webp&width=&height=&quality=85",
+                "buttons": [
+                  {
+                    "id": "zv5k3pvq",
+                    "name": "Add to cart",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "so7i3p7h",
+                "title": "BeachPlease Luminous Tinted Lip + Cheek Balm",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "A set that includes two full-size bestsellers, the BeachPlease Cream Blush and ShineOn Milky Lip Jelly Gloss."
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cdn.shopify.com/s/files/1/0270/5601/3415/products/Golden-Hour-Sand-BG-1024_1024x1024.png?v=1588929423",
+                "buttons": [
+                  {
+                    "id": "az7r3pkg",
+                    "name": "Add to cart",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "ad5h3pqh",
+                "title": "Lip Power Satin Long Lasting Lipstick",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "A long-lasting lipstick with rich, balmy smooth texture and satin finish. Shades range from soft nudes to vivid colors and provide all day comfort."
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://www.armanibeauty.com.my/assets/product-images/3614273725835-1657185578-km.jpg",
+                "buttons": [
+                  {
+                    "id": "g86i3p2s",
+                    "name": "Add to cart",
+                    "intent": null
+                  }
+                ]
+              }
+            ],
+            "layout": "Carousel",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {
+                "zv5k3pvq": {
+                  "type": "",
+                  "target": "63dadd07c6565f4a4ca2d38a",
+                  "id": "63dadd07c6565f4a4ca2d394"
+                },
+                "g86i3p2s": {
+                  "type": "",
+                  "target": "63dadd07c6565f4a4ca2d38c",
+                  "id": "63dadd07c6565f4a4ca2d395"
+                },
+                "az7r3pkg": {
+                  "type": "",
+                  "target": "63dadd07c6565f4a4ca2d38e",
+                  "id": "63dadd07c6565f4a4ca2d396",
+                  "data": {}
+                }
+              },
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d391"
+                },
+                "no-reply": {
+                  "type": "",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d393"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d392"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d390"
+        },
+        "63dadd07c6565f4a4ca2d398": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://www.sephora.com/",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d399"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d398"
+        },
+        "63dadd07c6565f4a4ca2d39b": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://www.sephora.com/",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d39c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d39b"
+        },
+        "63dadd07c6565f4a4ca2d39e": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://www.sephora.com/",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63dadd07c6565f4a4ca2d39f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d39e"
+        },
+        "63dadd07c6565f4a4ca2d3a1": {
+          "type": "block",
+          "data": {
+            "name": "Makeup copy",
+            "color": "",
+            "steps": [
+              "63dadd07c6565f4a4ca2d390"
+            ]
+          },
+          "nodeID": "63dadd07c6565f4a4ca2d3a1",
+          "coords": [
+            -1075.3274556547128,
+            846.693990490399
+          ]
+        },
+        "63db3447c6565f4a4ca2e96b": {
+          "type": "block",
+          "data": {
+            "name": "Core Menu",
+            "color": "#5b9fd7",
+            "steps": [
+              "63db3447c6565f4a4ca2e975",
+              "63db3447c6565f4a4ca2e978"
+            ]
+          },
+          "nodeID": "63db3447c6565f4a4ca2e96b",
+          "coords": [
+            -831.4216411187564,
+            -328.6123294531622
+          ]
+        },
+        "63db3447c6565f4a4ca2e96d": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63db3447c6565f4a4ca2e97e"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "63db3447c6565f4a4ca2e96d",
+          "coords": [
+            -1256.0623767102934,
+            -1129.4111952280355
+          ]
+        },
+        "63db3447c6565f4a4ca2e96f": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63db3447c6565f4a4ca2e97f"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "63db3447c6565f4a4ca2e96f",
+          "coords": [
+            -1256.0623767102934,
+            -1129.4111952280355
+          ]
+        },
+        "63db3447c6565f4a4ca2e971": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63db3447c6565f4a4ca2e980"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "63db3447c6565f4a4ca2e971",
+          "coords": [
+            -1256.0623767102934,
+            -1129.4111952280355
+          ]
+        },
+        "63db3447c6565f4a4ca2e973": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63db3447c6565f4a4ca2e981"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "63db3447c6565f4a4ca2e973",
+          "coords": [
+            -1256.0623767102934,
+            -1129.4111952280355
+          ]
+        },
+        "63db3447c6565f4a4ca2e975": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "gr5yh34xc",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How else can I help?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63db3447c6565f4a4ca2e978",
+                  "id": "63db3447c6565f4a4ca2e976"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e975"
+        },
+        "63db3447c6565f4a4ca2e978": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "grq33btz",
+                "name": "Shop Beauty Products 💄",
+                "actions": []
+              },
+              {
+                "id": "x8p63bsz",
+                "name": "Orders & Purchases 👜",
+                "actions": []
+              },
+              {
+                "id": "o91fn3bgm",
+                "name": "Returns & Exchanges 🚙",
+                "actions": []
+              },
+              {
+                "id": "0rpt3bu4",
+                "name": "Customer Service 📞",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63db3447c6565f4a4ca2e979"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63db3447c6565f4a4ca2e96d",
+                  "id": "63db3447c6565f4a4ca2e97a",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "63db3447c6565f4a4ca2e96f",
+                  "id": "63db3447c6565f4a4ca2e97b",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "63db3447c6565f4a4ca2e971",
+                  "id": "63db3447c6565f4a4ca2e97c",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "63db3447c6565f4a4ca2e973",
+                  "id": "63db3447c6565f4a4ca2e97d",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e978"
+        },
+        "63db3447c6565f4a4ca2e97e": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "83t334su",
+            "diagramID": "64932d45097b680007f7fec7",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e97e"
+        },
+        "63db3447c6565f4a4ca2e97f": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "wh1th3biu",
+            "diagramID": "64932d45097b680007f7fec6",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e97f"
+        },
+        "63db3447c6565f4a4ca2e980": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "6c4lf34kp",
+            "diagramID": "64932d45097b680007f7fec4",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e980"
+        },
+        "63db3447c6565f4a4ca2e981": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "3t5d38mb",
+            "diagramID": "649f39ab33efcf0007a0a066",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63db3447c6565f4a4ca2e981"
+        },
+        "649377ff0cb4da589be4a072": {
+          "type": "block",
+          "data": {
+            "name": "Menu",
+            "color": "",
+            "steps": [
+              "649377ff0cb4da589be4a07a",
+              "649377ff0cb4da589be4a07d"
+            ]
+          },
+          "nodeID": "649377ff0cb4da589be4a072",
+          "coords": [
+            1913.8902893066406,
+            -750.0865173339844
+          ]
+        },
+        "649377ff0cb4da589be4a074": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649377ff0cb4da589be4a082"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "649377ff0cb4da589be4a074",
+          "coords": [
+            -850.9999567541126,
+            -146.50007813495483
+          ]
+        },
+        "649377ff0cb4da589be4a076": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649377ff0cb4da589be4a083"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "649377ff0cb4da589be4a076",
+          "coords": [
+            -850.9999567541126,
+            -146.50007813495483
+          ]
+        },
+        "649377ff0cb4da589be4a078": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649377ff0cb4da589be4a084"
+            ],
+            "blockColor": ""
+          },
+          "nodeID": "649377ff0cb4da589be4a078",
+          "coords": [
+            -850.9999567541126,
+            -146.50007813495483
+          ]
+        },
+        "649377ff0cb4da589be4a07a": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "tic9396k",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Check out some of the other prompt chaining examples!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649377ff0cb4da589be4a07d",
+                  "id": "649377ff0cb4da589be4a07b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649377ff0cb4da589be4a07a"
+        },
+        "649377ff0cb4da589be4a07d": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "4zdb39c7",
+                "name": "🛒 Product Recommendations",
+                "actions": []
+              },
+              {
+                "id": "jads392m",
+                "name": "✈️ Get User Information",
+                "actions": []
+              },
+              {
+                "id": "qqe4396e",
+                "name": "🤖 API Summary",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "649377ff0cb4da589be4a07e"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "649377ff0cb4da589be4a074",
+                  "id": "649377ff0cb4da589be4a07f",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "649377ff0cb4da589be4a076",
+                  "id": "649377ff0cb4da589be4a080",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "649377ff0cb4da589be4a078",
+                  "id": "649377ff0cb4da589be4a081",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "649377ff0cb4da589be4a07d"
+        },
+        "649377ff0cb4da589be4a082": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "64930e2f92a2e45d757b6447",
+            "diagramID": "649f39ab33efcf0007a0a067",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649377ff0cb4da589be4a082"
+        },
+        "649377ff0cb4da589be4a083": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "649310da92a2e45d757b6731",
+            "diagramID": "649f39ab33efcf0007a0a068",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649377ff0cb4da589be4a083"
+        },
+        "649377ff0cb4da589be4a084": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "64931a5d92a2e45d757b6e8c",
+            "diagramID": "649f39ab33efcf0007a0a06a",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649377ff0cb4da589be4a084"
+        }
+      },
+      "offsetX": 272,
+      "offsetY": 204,
+      "modified": 1688577889,
+      "creatorID": 267611,
+      "variables": [],
+      "menuItems": [],
+      "menuNodeIDs": [],
+      "_id": "65f317412fea2ad54347184f",
+      "diagramID": "64a5a761f39eab3bc8a74548",
+      "versionID": "65f317412fea2ad54347184e"
+    },
+    "64a5a761f39eab3bc8a74547": {
+      "name": "🏠 Start Here",
+      "type": "TOPIC",
+      "zoom": 81.39238461438099,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649374669eaf351167d07de7",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1242.43,
+                          -545.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          1311.2,
+                          -543.99
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            1177.786246046259,
+            -567.8035891781111
+          ]
+        },
+        "649374669eaf351167d07de3": {
+          "type": "block",
+          "data": {
+            "name": "Answer question",
+            "color": "#b68bce",
+            "steps": [
+              "649374669eaf351167d07deb"
+            ]
+          },
+          "nodeID": "649374669eaf351167d07de3",
+          "coords": [
+            3334.2171524572645,
+            404.1311448177517
+          ]
+        },
+        "649374669eaf351167d07de5": {
+          "type": "block",
+          "data": {
+            "name": "Acknowledging how user is feeling",
+            "color": "#b68bce",
+            "steps": [
+              "649374669eaf351167d07dee"
+            ]
+          },
+          "nodeID": "649374669eaf351167d07de5",
+          "coords": [
+            2322.841419398284,
+            -510.7882045397976
+          ]
+        },
+        "649374669eaf351167d07de7": {
+          "type": "block",
+          "data": {
+            "name": "Get Support Intro",
+            "color": "#5b9fd7",
+            "steps": [
+              "649374669eaf351167d07df1",
+              "649374669eaf351167d07df4"
+            ]
+          },
+          "nodeID": "649374669eaf351167d07de7",
+          "coords": [
+            1476.1994453660707,
+            -570.993106790466
+          ]
+        },
+        "649374669eaf351167d07de9": {
+          "type": "block",
+          "data": {
+            "name": "Set AI - Sentiment Classification",
+            "color": "#bb89ce",
+            "steps": [
+              "649374669eaf351167d07df8"
+            ]
+          },
+          "nodeID": "649374669eaf351167d07de9",
+          "coords": [
+            1869.7883580847174,
+            -567.0615686020457
+          ]
+        },
+        "649374669eaf351167d07deb": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "{{[last_utterance].last_utterance}}",
+            "system": "You are a voiceflow support assistant",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "source": "knowledge_base",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649374669eaf351167d07dec",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2422.94,
+                          105.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          2481.56,
+                          105.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          2481.56,
+                          -534.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          2540.17,
+                          -534.2
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "instruction": "Please answer the following user question as with a clear and intuitive explanation they can follow to solve the problem:  {{[user_question].user_question}}.",
+            "notFoundPath": false,
+            "overrideParams": false
+          },
+          "nodeID": "649374669eaf351167d07deb",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649374669eaf351167d07dee": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "Based on user's sentiment, generate a statement that acknowledges how they're feeling and provide them with some comfort and or encouragement.\n\nDo not include any quotations. Speak directly to the customer. \n\nUser's sentiment: {{[sentiment].sentiment}}",
+            "system": "You are an expert in Test Automation.  You provide answers in a professional way to the user.",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "source": "default",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65b5bc1e7b10a37b2505e27a",
+                  "id": "649374669eaf351167d07def",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649374669eaf351167d07dee"
+        },
+        "649374669eaf351167d07df1": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "jiavo326a",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Welcome to Test Automation Assistant.  Please ask any questions related to Testing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "rxf43836",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Welcome to Test Automation Assistant.  Please feel free to inquire about Testing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "rxf538jg",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Welcome to Test Automation Assistant.  If you have any questions about Testing, please ask."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ryf6389g",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Welcome to Test Automation Assistant.  Feel free to ask any questions about Testing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ryf738qa",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Greetings! Test Automation Assistant is here to help with any questions related to Testing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ryf838mj",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Hello there! Test Automation Assistant is ready to assist with any Testing inquiries."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649374669eaf351167d07df4",
+                  "id": "649374669eaf351167d07df2"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649374669eaf351167d07df1"
+        },
+        "649374669eaf351167d07df4": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "user_question"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649374669eaf351167d07de9",
+                  "id": "649374669eaf351167d07df5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1642.2,
+                          -366.99
+                        ]
+                      },
+                      {
+                        "point": [
+                          1673.49,
+                          -366.99
+                        ]
+                      },
+                      {
+                        "point": [
+                          1673.49,
+                          -540.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          1704.79,
+                          -540.06
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "649374669eaf351167d07df6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649374669eaf351167d07df4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649374669eaf351167d07df8": {
+          "type": "ai_set",
+          "data": {
+            "name": "AI Set",
+            "label": "Set AI - Sentiment Classification",
+            "sets": [
+              {
+                "mode": "prompt",
+                "prompt": "Based on user's last utterance, classify the user's sentiment. For example: mad, frustrated, confused, curious, scared, bored, annoyed.\nUser's last utterance: {{[user_question].user_question}}",
+                "variable": "sentiment"
+              }
+            ],
+            "system": "You are a helpful assistant.",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649374669eaf351167d07de5",
+                  "id": "649374669eaf351167d07df9",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2035.79,
+                          -479.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          2157.84,
+                          -483.79
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649374669eaf351167d07df8"
+        },
+        "649374669eaf351167d07dfa": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1675198860266-right_down_curve-removebg-preview.png",
+            "width": 166.48510867010725,
+            "height": 166.48510867010725,
+            "rotate": -1.1902903706142007
+          },
+          "nodeID": "649374669eaf351167d07dfa",
+          "coords": [
+            2004.6206348086566,
+            305.4789377764681
+          ]
+        },
+        "649374669eaf351167d07dfb": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 9.038653060814955,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": ".",
+                    "color": {
+                      "r": 59,
+                      "g": 64,
+                      "b": 66,
+                      "a": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 94.4857660636675,
+            "backgroundColor": {
+              "r": 235,
+              "g": 243,
+              "b": 245,
+              "a": 0.15
+            }
+          },
+          "nodeID": "649374669eaf351167d07dfb",
+          "coords": [
+            1469.801493200227,
+            405.8185579509577
+          ]
+        },
+        "649374669eaf351167d07dfc": {
+          "type": "markup_text",
+          "data": {
+            "name": " copy",
+            "scale": 0.978739757626975,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "Use your own data with ChatGPT",
+                    "fontWeight": "700"
+                  }
+                ]
+              },
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "You can now access your own data in the Knowledge Base with the Response AI step!"
+                  }
+                ]
+              },
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "This lets you ask questions and send prompts to GPT or Claude using your own data. "
+                  },
+                  {
+                    "text": "Just upload documents to the Knowledge base",
+                    "fontWeight": "700"
+                  },
+                  {
+                    "text": " and ask away!"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 402.72882733883165,
+            "blockColor": "standard"
+          },
+          "nodeID": "649374669eaf351167d07dfc",
+          "coords": [
+            1466.4199716422545,
+            293.7212498352805
+          ]
+        },
+        "649374669eaf351167d07dfd": {
+          "type": "markup_text",
+          "data": {
+            "name": "",
+            "scale": 1.1018815777642295,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "New Feature!",
+                    "fontWeight": "700"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 178.87085870699906,
+            "blockColor": "standard"
+          },
+          "nodeID": "649374669eaf351167d07dfd",
+          "coords": [
+            1464.7724112937728,
+            248.65181303658338
+          ]
+        },
+        "649375869eaf351167d07e35": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "",
+            "system": "",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649375869eaf351167d07e36"
+                }
+              },
+              "dynamic": []
+            },
+            "source": "knowledge_base"
+          },
+          "nodeID": "649375869eaf351167d07e35"
+        },
+        "649375869eaf351167d07e37": {
+          "type": "block",
+          "data": {
+            "name": "Access Knowledge Base",
+            "steps": [
+              "649375869eaf351167d07e35"
+            ],
+            "color": "#b68bce"
+          },
+          "nodeID": "649375869eaf351167d07e37",
+          "coords": [
+            1295.704843126647,
+            304.0390114438378
+          ]
+        },
+        "64937c4ee9a46660674023d4": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Make sure you uploaded the URLs to the knowledge base!"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 310.5341515508132,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "64937c4ee9a46660674023d4",
+          "coords": [
+            3198.816148119145,
+            533.049543491907
+          ]
+        },
+        "649374a39eaf351167d07e1f": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "tic9396k",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Is there anything else I can help you with?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649374a39eaf351167d07e20"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649374a39eaf351167d07e1f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649374a39eaf351167d07e21": {
+          "type": "block",
+          "data": {
+            "name": "Menu",
+            "color": "#5b9fd7",
+            "steps": [
+              "649374a39eaf351167d07e1f",
+              "649f3a08ce40c791faed7991"
+            ]
+          },
+          "nodeID": "649374a39eaf351167d07e21",
+          "coords": [
+            2705.165738081462,
+            -561.2013045040507
+          ]
+        },
+        "649f3a08ce40c791faed7991": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "eh1jp396i",
+                "name": "Yes",
+                "actions": []
+              },
+              {
+                "id": "9l1k439bc",
+                "name": "No",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "649f3a08ce40c791faed7993"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "649f3a27ce40c791faed79a6",
+                  "id": "649f3a08ce40c791faed7992",
+                  "data": {}
+                },
+                {
+                  "id": "649f3a0bce40c791faed7996",
+                  "type": "",
+                  "target": "649f3a12ce40c791faed7999",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2871.17,
+                          -349.7
+                        ]
+                      },
+                      {
+                        "point": [
+                          2904.93,
+                          -349.7
+                        ]
+                      },
+                      {
+                        "point": [
+                          2904.93,
+                          -238.37
+                        ]
+                      },
+                      {
+                        "point": [
+                          2938.69,
+                          -238.37
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "649f3a08ce40c791faed7991",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649f3a12ce40c791faed7999": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "rz1la3942",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Goodbye!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649f3a12ce40c791faed799a"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649f3a12ce40c791faed7999"
+        },
+        "649f3a12ce40c791faed799b": {
+          "type": "block",
+          "data": {
+            "name": "Exit Conversation",
+            "steps": [
+              "649f3a12ce40c791faed7999",
+              "649f3a1ace40c791faed79a2"
+            ],
+            "color": "#5b9fd7"
+          },
+          "nodeID": "649f3a12ce40c791faed799b",
+          "coords": [
+            3104.6947568609266,
+            -317.37480779431735
+          ]
+        },
+        "649f3a1ace40c791faed79a2": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649f3a1ace40c791faed79a2"
+        },
+        "649f3a27ce40c791faed79a5": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "start00000000000000000000",
+            "diagramID": "64a5a761f39eab3bc8a74547",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649f3a27ce40c791faed79a5"
+        },
+        "649f3a27ce40c791faed79a6": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649f3a27ce40c791faed79a5"
+            ]
+          },
+          "nodeID": "649f3a27ce40c791faed79a6",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65b5bc1e7b10a37b2505e27a": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "\"As a test automation expert, please review the user request and provide a thoughtful and intuitive response.  Provide examples if needed.  \":\n{{[user_question].user_question}}",
+            "system": "",
+            "maxTokens": 128,
+            "model": "gpt-4",
+            "temperature": 0.7,
+            "notFoundPath": true,
+            "overrideParams": false,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649374a39eaf351167d07e21",
+                  "id": "65b5bc1e7b10a37b2505e27b",
+                  "data": {}
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65b5bc1e7b10a37b2505e27c"
+                }
+              },
+              "dynamic": []
+            },
+            "source": "knowledge_base"
+          },
+          "nodeID": "65b5bc1e7b10a37b2505e27a"
+        },
+        "65b5bc1e7b10a37b2505e27d": {
+          "type": "block",
+          "data": {
+            "name": "Answer the Users Question",
+            "steps": [
+              "65b5bc1e7b10a37b2505e27a"
+            ],
+            "color": ""
+          },
+          "nodeID": "65b5bc1e7b10a37b2505e27d",
+          "coords": [
+            2307.398970639084,
+            -80.51948632223313
+          ]
+        }
+      },
+      "offsetX": -382.2289968370073,
+      "offsetY": 754.2428713424889,
+      "modified": 1688577889,
+      "creatorID": 267611,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "_id": "65f317412fea2ad543471850",
+      "diagramID": "64a5a761f39eab3bc8a74547",
+      "versionID": "65f317412fea2ad54347184e"
+    }
+  },
+  "flows": [],
+  "entities": [
+    {
+      "id": "7o57382s",
+      "name": "makeupproduct",
+      "description": null,
+      "color": "#A086C4",
+      "classifier": "Custom",
+      "isArray": false,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "ru10t34wy",
+      "name": "User_Email",
+      "description": null,
+      "color": "#56b365",
+      "classifier": "VF.EMAIL",
+      "isArray": false,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "zn1nu34s2",
+      "name": "Order_Number",
+      "description": null,
+      "color": "#616769",
+      "classifier": "VF.NUMBER",
+      "isArray": false,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    }
+  ],
+  "entityVariants": [
+    {
+      "id": "65904b744f67860007096b66",
+      "language": "en-us",
+      "value": "blush",
+      "synonyms": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b67",
+      "language": "en-us",
+      "value": "mascara",
+      "synonyms": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b68",
+      "language": "en-us",
+      "value": "foundation",
+      "synonyms": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b69",
+      "language": "en-us",
+      "value": "concealer",
+      "synonyms": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b6a",
+      "language": "en-us",
+      "value": "eyeshaddow",
+      "synonyms": [
+        "eye shaddow"
+      ],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b6b",
+      "language": "en-us",
+      "value": "eyeliner",
+      "synonyms": [
+        "eye liner",
+        "eyes linair"
+      ],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    },
+    {
+      "id": "65904b744f67860007096b6c",
+      "language": "en-us",
+      "value": "contour",
+      "synonyms": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "entityID": "7o57382s"
+    }
+  ],
+  "intents": [
+    {
+      "id": "VF.START_OVER",
+      "name": "VF.START_OVER",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.STOP",
+      "name": "VF.STOP",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.NEXT",
+      "name": "VF.NEXT",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.PAUSE",
+      "name": "VF.PAUSE",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.CANCEL",
+      "name": "VF.CANCEL",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.RESUME",
+      "name": "VF.RESUME",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.REPEAT",
+      "name": "VF.REPEAT",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.PREVIOUS",
+      "name": "VF.PREVIOUS",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.YES",
+      "name": "VF.YES",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "VF.NO",
+      "name": "VF.NO",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    }
+  ],
+  "utterances": [],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [],
+  "responseVariants": [],
+  "responseAttachments": [],
+  "responseDiscriminators": [],
+  "variables": [
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "recommendation",
+      "name": "recommendation",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "online",
+      "name": "online",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "offline",
+      "name": "offline",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "makeup_recommendations",
+      "name": "makeup_recommendations",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "order_number",
+      "name": "order_number",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "order_status",
+      "name": "order_status",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "First_Name",
+      "name": "First_Name",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "gpt_api_key",
+      "name": "gpt_api_key",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "user_question",
+      "name": "user_question",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "GPT3_Response",
+      "name": "GPT3_Response",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "raw",
+      "name": "raw",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "Last_Name",
+      "name": "Last_Name",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "airtable_api_key",
+      "name": "airtable_api_key",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "searchColumn",
+      "name": "searchColumn",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "accountNumber",
+      "name": "accountNumber",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "hunterio_apikey",
+      "name": "hunterio_apikey",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "sentiment",
+      "name": "sentiment",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "user_goals",
+      "name": "user_goals",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "travel_information",
+      "name": "travel_information",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "entity_check",
+      "name": "entity_check",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "departure_city",
+      "name": "departure_city",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "destination",
+      "name": "destination",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "Departure_Date",
+      "name": "Departure_Date",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "return_date",
+      "name": "return_date",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "APIResponse",
+      "name": "APIResponse",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "api_url",
+      "name": "api_url",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "persona",
+      "name": "persona",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "report",
+      "name": "report",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "fields",
+      "name": "fields",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-03-14T15:26:57.000Z",
+      "updatedAt": "2024-03-14T15:26:57.000Z",
+      "folderID": null,
+      "updatedByID": 267611,
+      "createdByID": 267611
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "TestAutomationAssistant",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1688162302692-235183-removebg-preview.png",
+    "teamID": "PGE9VRX2kY",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 267611,
+    "updatedBy": 267611,
+    "apiPrivacy": "private",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [
+      {
+        "name": "Logic & Components",
+        "palette": {
+          "50": "#f2ecf6",
+          "100": "#e9dff1",
+          "200": "#dfceea",
+          "300": "#d5bee3",
+          "400": "#c5a5d9",
+          "500": "#b68bce",
+          "600": "#a56ec1",
+          "700": "#8753a0",
+          "800": "#633b76",
+          "900": "#3e234b"
+        },
+        "standardColor": "#b68bce"
+      }
+    ],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "65f317412fea2ad54347184d",
+    "updatedAt": "2024-03-14T15:31:24.653Z",
+    "knowledgeBase": {
+      "tags": {},
+      "settings": {
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "summarization": {
+          "prompt": "",
+          "mode": "prompt",
+          "model": "gpt-4",
+          "temperature": 0.33,
+          "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
+        }
+      },
+      "faqSets": {},
+      "documents": {
+        "65f319cbbe654af9da248ae5": {
+          "status": {
+            "type": "SUCCESS",
+            "data": null
+          },
+          "data": {
+            "type": "pdf",
+            "name": "docs-pytest-org-en-4.6.x.pdf"
+          },
+          "updatedAt": "2024-03-14T15:37:47.079Z",
+          "creatorID": 267611,
+          "documentID": "65f319cbbe654af9da248ae5",
+          "s3ObjectRef": "65f317412fea2ad54347184d/docs-pytest-org-en-4.6.x.pdf",
+          "tags": []
+        }
+      }
+    },
+    "devVersion": "65f317412fea2ad54347184e"
+  },
+  "_version": "1.2",
+  "variableStates": []
+}
