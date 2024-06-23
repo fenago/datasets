@@ -1,0 +1,69 @@
+YEAR,PLAYER,POS,TEAM,FG%,PPG,RPG,APG,BLKPG
+2024,Nikola Jokic,C,Denver Nuggets,0.583,26.4,12.4,9,0.9
+2023,Joel Embiid,C,Philadelphia 76ers,0.548,33.1,10.2,4.2,1.7
+2022,Nikola Jokic,C,Denver Nuggets,0.583,27.1,13.8,7.9,0.9
+2021,Nikola Jokic,C,Denver Nuggets,0.566,26.4,10.8,8.3,0.7
+2020,Giannis Antetokounmpo,F,Milwaukee Bucks,0.553,29.5,13.6,5.6,1
+2019,Giannis Antetokounmpo,F,Milwaukee Bucks,0.578,27.7,12.5,5.9,1.5
+2018,James Harden,G,Houston Rockets,0.449,30.4,5.4,8.8,0.7
+2017,Russell Westbrook,G,Oklahoma City Thunder,0.425,31.6,10.7,10.4,0.4
+2016,Stephen Curry,G,Golden State Warriors,0.504,30.1,5.4,6.7,0.2
+2015,Stephen Curry,G,Golden State Warriors,0.487,23.8,4.3,7.7,0.2
+2014,Kevin Durant,F,Oklahoma City Thunder,0.503,32,7.4,5.5,0.7
+2013,LeBron James,F,Miami Heat,0.565,26.8,8,7.3,0.9
+2012,LeBron James,SF,Miami Heat,0.531,27.1,7.9,6.2,0.8
+2011,Derrick Rose,PG,Chicago Bulls,0.445,25,4.1,7.7,0.6
+2010,LeBron James,SF,Cleveland Cavaliers,0.503,29.7,7.3,8.6,1
+2009,LeBron James,SF,Cleveland Cavaliers,0.489,28.4,7.6,7.2,1.1
+2008,Kobe Bryant,SF,Los Angeles Lakers,0.459,28.3,6.3,5.4,0.5
+2007,Dirk Nowitzki,F,Dallas Mavericks,0.502,24.6,8.9,3.4,0.8
+2006,Steve Nash,PG,Phoenix Suns,0.512,18.8,4.2,10.5,0.2
+2005,Steve Nash,PG,Phoenix Suns,0.502,15.5,3.3,11.5,0.1
+2004,Kevin Garnett,PF,Minnesota Timberwolves,0.499,24.2,13.9,5,2.2
+2003,Tim Duncan,C,San Antonio Spurs,0.513,23.3,12.9,3.9,2.9
+2002,Tim Duncan,C,San Antonio Spurs,0.508,25.5,12.7,3.7,2.5
+2001,Allen Iverson,SG,Philadelphia 76ers,0.42,31.1,3.8,4.6,0.3
+2000,Shaquille O'Neal,C,Los Angeles Lakers,0.574,29.7,13.6,3.8,3
+1999,Karl Malone,PF,Utah Jazz,0.493,23.8,9.4,4.1,0.6
+1998,Michael Jordan,G,Chicago Bulls,0.465,28.7,5.8,3.5,0.5
+1997,Karl Malone,PF,Utah Jazz,0.55,27.4,9.9,4.5,0.6
+1996,Michael Jordan,G,Chicago Bulls,0.495,30.4,6.6,4.3,0.5
+1995,David Robinson,C,San Antonio Spurs,0.53,27.6,10.8,2.9,3.2
+1994,Hakeem Olajuwon,C,Houston Rockets,0.528,27.3,11.9,3.6,3.7
+1993,Charles Barkley,F,Phoenix Suns,0.52,25.6,12.2,5.1,1
+1992,Michael Jordan,G,Chicago Bulls,0.519,30.1,6.4,6.1,0.9
+1991,Michael Jordan,G,Chicago Bulls,0.539,31.5,6,5.5,1
+1990,Magic Johnson,F,Los Angeles Lakers,0.48,22.3,6.6,11.5,0.4
+1989,Magic Johnson,F,Los Angeles Lakers,0.509,22.5,7.9,12.8,0.3
+1988,Michael Jordan,G,Chicago Bulls,0.535,35,5.5,5.9,1.6
+1987,Magic Johnson,F,Los Angeles Lakers,0.522,23.9,6.3,12.2,0.5
+1986,Larry Bird,,Boston Celtics,No stats available.,,,,
+1985,Larry Bird,,Boston Celtics,No stats available.,,,,
+1984,Larry Bird,,Boston Celtics,No stats available.,,,,
+1983,Moses Malone,C,Philadelphia 76ers,No stats available.,,,,
+1982,Moses Malone,C,Houston Rockets,No stats available.,,,,
+1981,Julius Erving,,Philadelphia 76ers,No stats available.,,,,
+1980,Kareem Abdul-Jabbar,,Los Angeles Lakers,No stats available.,,,,
+1979,Moses Malone,C,Houston Rockets,No stats available.,,,,
+1978,Bill Walton,,Portland Trail Blazers,No stats available.,,,,
+1977,Kareem Abdul-Jabbar,,Los Angeles Lakers,No stats available.,,,,
+1976,Kareem Abdul-Jabbar,,Los Angeles Lakers,No stats available.,,,,
+1975,Bob McAdoo,,Buffalo Braves,No stats available.,,,,
+1974,Kareem Abdul-Jabbar,,Milwaukee Bucks,No stats available.,,,,
+1973,David Cowens,,Boston Celtics,No stats available.,,,,
+1972,Kareem Abdul-Jabbar,,Milwaukee Bucks,No stats available.,,,,
+1971,Kareem Abdul-Jabbar,,Milwaukee Bucks,No stats available.,,,,
+1970,Willis Reed,,New York Knicks,No stats available.,,,,
+1969,Wes Unseld,,Baltimore Bullets,No stats available.,,,,
+1968,Wilt Chamberlain,,Philadelphia 76ers,No stats available.,,,,
+1967,Wilt Chamberlain,,Philadelphia 76ers,No stats available.,,,,
+1966,Wilt Chamberlain,,Philadelphia 76ers,No stats available.,,,,
+1965,Bill Russell,,Boston Celtics,No stats available.,,,,
+1964,Oscar Robertson,,Cincinnati Royals,No stats available.,,,,
+1963,Bill Russell,,Boston Celtics,No stats available.,,,,
+1962,Bill Russell,,Boston Celtics,No stats available.,,,,
+1961,Bill Russell,,Boston Celtics,No stats available.,,,,
+1960,Wilt Chamberlain,,Philadelphia Warriors,No stats available.,,,,
+1959,Bob Pettit,,St. Louis Hawks,No stats available.,,,,
+1958,Bill Russell,,Boston Celtics,No stats available.,,,,
+1957,Bob Cousy,,Boston Celtics,No stats available.,,,,
